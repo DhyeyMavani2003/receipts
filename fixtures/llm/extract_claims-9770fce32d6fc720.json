@@ -1,0 +1,71 @@
+{
+  "request": {
+    "schemaName": "extract_claims",
+    "variant": null,
+    "system_sha": "40470d54e7f1941f",
+    "user_excerpt": "Speaker: Jensen Huang\nHost (never attribute their words to the speaker): Chamath Palihapitiya, Jason Calacanis, David Sacks, David Friedberg\nSource: \"Jensen Huang: The Doomer Hoax, Superintelligence i"
+  },
+  "response": {
+    "data": {
+      "claims": [
+        {
+          "quote": "The world needs both closed models and\nopen models.",
+          "claim": "Jensen Huang believes the world needs both closed AI models and open AI models.",
+          "type": "stance",
+          "topic": "ai-open-models",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Jensen Huang continues to publicly say or act consistently with the view that both closed AI models and open AI models are needed.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "The facts are in the last 6 months\n$400 billion of venture funding went\ninto AI native companies.\n80% of them use open models.",
+          "claim": "In the six months before September 14, 2026, $400 billion of venture funding went into AI-native companies.",
+          "type": "factual",
+          "topic": "ai-venture-funding",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Venture funding databases or credible industry reports show that AI-native companies received about $400 billion in venture funding during the six months before September 14, 2026.",
+          "hedge": "",
+          "specificity": 5
+        },
+        {
+          "quote": "The facts are in the last 6 months\n$400 billion of venture funding went\ninto AI native companies.\n80% of them use open models.",
+          "claim": "Eighty percent of the AI-native companies that received venture funding in the six months before September 14, 2026 use open models.",
+          "type": "factual",
+          "topic": "ai-open-models",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Venture funding databases, company disclosures, or credible industry reports show that about 80% of the AI-native companies funded during the six months before September 14, 2026 use open models.",
+          "hedge": "",
+          "specificity": 5
+        },
+        {
+          "quote": "probably the vast majority of the\nworld's contribution to open source\ntoday is coming from China.",
+          "claim": "As of September 14, 2026, the vast majority of the world's contribution to open source is coming from China.",
+          "type": "factual",
+          "topic": "china-open-source",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Public open-source contribution data or credible analyses show that China accounts for a majority of global open-source contributions as of September 14, 2026.",
+          "hedge": "probably",
+          "specificity": 3
+        },
+        {
+          "quote": "My point is the race is really\nabout who exploits the technology best.",
+          "claim": "Jensen Huang believes the AI race is about who exploits AI technology best.",
+          "type": "stance",
+          "topic": "ai-race",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Jensen Huang continues to publicly characterize the AI race as primarily about who best exploits or applies AI technology.",
+          "hedge": "",
+          "specificity": 3
+        }
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

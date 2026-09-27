@@ -1,0 +1,301 @@
+{
+  "request": {
+    "schemaName": "grade_claim",
+    "variant": "A",
+    "system_sha": "3ebb79f1f9eba826",
+    "user_excerpt": "Judge: A (strict reading of the claim's wording)\nToday: 2026-09-27\n\nSpeaker: Elon Musk\nSaid: 2025-05-20 in \"CNBC interview with David Faber at Giga Texas, Part 1\" (podcast) https://www.youtube.com/wat"
+  },
+  "response": {
+    "data": {
+      "verdict": "correct",
+      "confidence": 0.78,
+      "rationale": "The claim required that DOGE-related deferred resignation/severance offers produce no net savings before October 1, 2025 because participants remained paid through September 30, 2025. Official OPM workforce records describe DRP participants as receiving full pay and benefits during paid administrative leave until September 30, 2025, and GAO’s later payroll review estimated $6.7 billion in 2025 paid-administrative-leave salary costs associated with the DRP. GAO also noted that OPM lacked a clean mechanism to calculate workforce-reduction savings, so the evidence supports the payroll-savings point but does not provide a precise net-savings ledger.",
+      "resolvedOn": "2025-10-01",
+      "evidence": [
+        {
+          "url": "https://data.opm.gov/explore-data/analytics/workforce-changes",
+          "title": "Workforce Changes",
+          "date": "2026-09-16",
+          "snippet": "Through the DRP, individuals agreed to separate by September 30, 2025 while receiving full pay and benefits during paid administrative leave."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-26-108477",
+          "title": "Federal Workforce: Deferred Resignation Program Largely Responsible for Sixfold Increase in Paid Administrative Leave Salary Costs",
+          "date": "2026-09-15",
+          "snippet": "GAO calculated about $6.7 billion was associated with deferred resignation program paid administrative leave in 2025."
+        },
+        {
+          "url": "https://files.gao.gov/reports/GAO-26-108477/index.html",
+          "title": "GAO-26-108477, FEDERAL WORKFORCE: Sixfold Increase in Paid Administrative Leave Salary Costs Largely Due to Deferred Resignation Program",
+          "date": "2026-09-15",
+          "snippet": "The 2025 government-wide deferred resignation program period ended on September 30, 2025, unless the employee elected an earlier resignation date."
+        },
+        {
+          "url": "https://www.opm.gov/about-us/fork/faq/",
+          "title": "Frequently Asked Questions",
+          "date": null,
+          "snippet": "Will I really get my full pay and benefits during the entire period through September 30? Yes."
+        }
+      ]
+    },
+    "citations": [],
+    "searched": [
+      {
+        "url": "https://www.gao.gov/products/gao-26-108477"
+      },
+      {
+        "url": "https://doge.gov/savings?source=email"
+      },
+      {
+        "url": "https://www.doge.gov/payments"
+      },
+      {
+        "url": "https://www.opm.gov/about-us/fork/faq/"
+      },
+      {
+        "url": "https://www.gao.gov/assets/gao-26-108477.pdf"
+      },
+      {
+        "url": "https://www.opm.gov/news/secrets-of-opm/what-they-got-wrong-about-the-deferred-resignation-program/"
+      },
+      {
+        "url": "https://www.dcpas.osd.mil/sites/default/files/2025-11/DFAS%20Shutdown%20FAQs%2011.13.25.pdf"
+      },
+      {
+        "url": "https://www.opm.gov/media/xmxfp34k/opm-memo-legality-of-deferred-resignation-program-2-4-2025-final-1.pdf?oref=d_brief_nl"
+      },
+      {
+        "url": "https://www.opm.gov/media/3oaf3vs0/opm-guidance-memo-re-deferred-resignation-program-01-28-25-final.pdf"
+      },
+      {
+        "url": "https://www.washingtonpost.com/documents/b256b202-ff01-48dc-a2d1-80b0e43fa87a.pdf"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-108615/index.html"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-108477/index.html"
+      },
+      {
+        "url": "https://www.energy.gov/sites/default/files/2025-04/Partial%20Pay%20FAQs.pdf"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2025/07/31/federal-workers-doge-buyout-paid/"
+      },
+      {
+        "url": "https://www.factcheck.org/2025/09/trump-project-2025-and-the-dismantling-of-the-administrative-state/"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-108131/index.html"
+      },
+      {
+        "url": "https://www.citizen.org/article/11-billion-resignation-program/"
+      },
+      {
+        "url": "https://www.openfeds.org/timeline"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2025_U.S._federal_deferred_resignation_program"
+      },
+      {
+        "url": "https://www.gao.gov/assets/900/890279.pdf"
+      },
+      {
+        "url": "https://www.cbo.gov/publication/61773"
+      },
+      {
+        "url": "https://files.gao.gov/assets/gao-26-108719.pdf"
+      },
+      {
+        "url": "https://www.federalhiringdata.com/articles/deferred-resignation-paid-leave-cost-2025"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-108100/index.html"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-108673/index.html"
+      },
+      {
+        "url": "https://federalnewsnetwork.com/management/2026/09/trump-administrations-drp-cost-6-7b-last-year-watchdog-estimates/"
+      },
+      {
+        "url": "https://www.cbo.gov/about/careers/benefits"
+      },
+      {
+        "url": "https://www.cbo.gov/budget-options/54784"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-108212/index.html"
+      },
+      {
+        "url": "https://www.cbo.gov/publication/61381"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1wh56jv/new_gao_report_federal_workforce_deferred/"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ihp9hn"
+      },
+      {
+        "url": "https://www.reddit.com/r/govfire/comments/1itxfs8/those_of_you_who_accepted_the_deferred/"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1igri37"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1iima5g"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ie3hcn"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Congressional_Budget_Office"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ielxp1"
+      },
+      {
+        "url": "https://www.reddit.com/r/govfire/comments/1imz0oq"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ihrlyf"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ie7kfm/newest_email_from_opm_to_cbp_employees/"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1mdzlep/exclusive_the_federal_government_is_paying_more/"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1iny87y"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Department_of_Government_Efficiency"
+      },
+      {
+        "url": "https://www.opm.gov/about-us/fork/original-email-to-employees/"
+      },
+      {
+        "url": "https://www.war.gov/Portals/1/Spotlight/2025/Guidance_For_Federal_Policies/Deferred_Resignation_Program/Deferred_Resignation_Program_OPM_Legality.pdf"
+      },
+      {
+        "url": "https://www.commerce.gov/sites/default/files/2025-03/Deferred%20Resignation%20Program-related%20FAQs%20for%20Employing%20Agency%20HR%20Offices%20-%20Set%20II.pdf"
+      },
+      {
+        "url": "https://content.govdelivery.com/accounts/USOPM/bulletins/3f3f14c"
+      },
+      {
+        "url": "https://data.opm.gov/explore-data/analytics/workforce-changes"
+      },
+      {
+        "url": "https://www.opm.gov/about-us/fork/"
+      },
+      {
+        "url": "https://content.govdelivery.com/accounts/USOPM/bulletins/3ff68a6"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-107813/index.html"
+      },
+      {
+        "url": "https://www.commerce.gov/hr/deferred-resignation-program"
+      },
+      {
+        "url": "https://www.opm.gov/retirement-center/fers-information/types-of-retirement"
+      },
+      {
+        "url": "https://regulations.justia.com/regulations/fedreg/2026/06/29/2026-13073.html"
+      },
+      {
+        "url": "https://www.reddit.com/r/u_Feeling-Discipline98/comments/1ickkjv"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ii4aka"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1ihrlzy"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_Office_of_Personnel_Management"
+      },
+      {
+        "url": "https://www.reddit.com/r/FedEmployees/comments/1nogkhb"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1iguslw"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1icm4ov"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_federal_civil_service"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Presidential_Management_Fellows_Program"
+      },
+      {
+        "url": "https://apnews.com/article/e8cd4f40ac16220bd0a399a00c5b9f63"
+      },
+      {
+        "url": "https://apnews.com/article/522b13db0dac361a6225d289773f9c1d"
+      },
+      {
+        "url": "https://www.opm.gov/news/secrets-of-opm/last-year-s-workforce-reductions-were-real/"
+      },
+      {
+        "url": "https://data.opm.gov/"
+      },
+      {
+        "url": "https://data.opm.gov/explore-data/data/data-downloads"
+      },
+      {
+        "url": "https://www.defense.gov/Portals/1/Spotlight/2025/Guidance_For_Federal_Policies/Deferred_Resignation_Program/Deferred_Resignation_Program_OPM_Fork_In_Road.pdf"
+      },
+      {
+        "url": "https://www.gao.gov/assets/gao-26-108477-highlights.pdf"
+      },
+      {
+        "url": "https://www.hhs.gov/about/agencies/asa/deferred-resignation-program/index.html"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/trump-administration-offering-buyouts-to-government-workers-unwilling-to-return-to-office/"
+      },
+      {
+        "url": "https://legalclarity.org/drp-lawsuit-federal-unions-challenge-deferred-resignations/"
+      },
+      {
+        "url": "https://docs.justia.com/cases/federal/district-courts/california/candce/3%3A2025cv03698/448664/124/"
+      },
+      {
+        "url": "https://theplainrecord.com/article/gao-reports-federal-administrative-leave-costs-reached-9-5-billion-in-2025"
+      },
+      {
+        "url": "https://legalclarity.org/federal-time-off-annual-leave-sick-leave-holidays-and-more/"
+      },
+      {
+        "url": "https://apportionment-public.max.gov/Spend%20Plans/FY25%20State%20Diplomatic%20Engagement%20Spend%20Plan.pdf"
+      },
+      {
+        "url": "https://fedup.work/guides/federal-deferred-resignation-program"
+      },
+      {
+        "url": "https://headlineupdates.com/taxpayer-outrage-paid-to-quit/"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg60270/html/CHRG-119shrg60270.htm"
+      },
+      {
+        "url": "https://political.org/2026/09/19/gao-report-doges-deferred-resignation-buyout-program-cost-taxpayers-6-7-billion-lawmakers-call-it-stupid-waste/"
+      },
+      {
+        "url": "https://the-aporia.com/dashboard/article/14867"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1wmrl7p/400_percent_return_cost_of_deferred_resignation/"
+      },
+      {
+        "url": "https://www.reddit.com/r/fednews/comments/1jthdxk"
+      }
+    ],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

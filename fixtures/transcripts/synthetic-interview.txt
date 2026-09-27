@@ -1,0 +1,149 @@
+SYNTHETIC TEST DATA: an invented interview written for Receipts unit tests. Sam Host, Dana Founder and Ferrowind Robotics are fictional; no real person said any of this. Use recording date 2025-01-15 in tests.
+
+Sam Host (00:00:04) Welcome back to The Build Log, the show where founders explain what they are actually building. I'm Sam Host. My guest today is Dana Founder, co-founder and CEO of Ferrowind Robotics, which makes humanoid robots for warehouses and, if you believe the pitch deck, eventually for your living room. Dana, thanks for coming on.
+
+Dana Founder (00:00:25) Thanks for having me, Sam. Um, it's been a wild twelve months for us, so I'm glad we finally found a date that worked.
+
+Sam Host (00:00:36) Let's start simple. For people who haven't followed Ferrowind, what do you actually build?
+
+Dana Founder (00:00:42) We build general-purpose humanoid robots. Our current model is the F2. It's about five foot six, it walks on two legs, it has two arms with five-finger hands, and it can learn a new warehouse task from, uh, a few hours of human demonstration. Most of our customers use it for tote moving, box picking and loading carts. It's not glamorous work, but it's the work nobody wants to do at three in the morning.
+
+Sam Host (00:01:13) Before we get to numbers, how did this start? You weren't a robotics person originally.
+
+Dana Founder (00:01:20) No, I came from logistics software. I spent six years writing routing code for distribution centers, and every time I visited a site I saw the same thing: the software was great and the people were exhausted. The bottleneck wasn't the plan, it was the lifting. My co-founder had been building walking robots in a university lab, and we met at a friend's wedding, of all places. We argued about legs versus wheels for about three hours and then decided to start a company instead of finishing the argument.
+
+Sam Host (00:01:55) Who won the argument?
+
+Dana Founder (00:01:58) Legs, obviously, or we'd be a very different company. But the wheels camp wasn't wrong about everything. Wheels are cheaper and simpler, and if your whole world is flat concrete, they're fine. The moment there's a step, a ramp or a truck bed, you want legs.
+
+Sam Host (00:02:17) And how many of these are out in the world right now?
+
+Dana Founder (00:02:22) We shipped 1,200 F2 robots to paying customers in 2024. That's up from about three hundred in 2023. So the fleet quadrupled in a year, and every one of those robots is sending us data back every night.
+
+Sam Host (00:02:38) Twelve hundred is a real number. A lot of humanoid companies are still at the demo-video stage. What's the plan for 2025?
+
+Dana Founder (00:02:48) 2025 is the year of manufacturing for us. We just finished our first real production line in Reno. It's not a prototype line, it's a line with takt times and quality gates and all the boring stuff. So I'll say it plainly: we will ship ten thousand F2 robots by the end of 2025, for sure. The line is built, the parts are ordered, and, you know, the customers are already waiting for them.
+
+Sam Host (00:03:18) Ten thousand, for sure? That's roughly an eightfold jump in one year.
+
+Dana Founder (00:03:23) It is, and I'm not worried about it. Demand is not our problem. We have signed orders for more than we can build. The constraint has always been actuators and hands, and we brought both in-house last spring. Once you own the actuator line, the math changes.
+
+Sam Host (00:03:43) Let me push on that. So you're saying Ferrowind will have a million robots in people's homes by 2027? Because that's what some of your investors are telling people.
+
+Dana Founder (00:03:55) No. I didn't say that, and I want to be careful here. A million home robots by 2027 is not going to happen, not from us and not from anybody else. Homes are much, much harder than warehouses. Stairs, pets, kids, rugs, glass tables. Warehouses are designed around process. Homes are designed around people.
+
+Sam Host (00:04:17) Fair. So when do you get to the home?
+
+Dana Founder (00:04:22) We're working on it. The F3 will launch at our developer day in March 2026, and the F3 is the first robot we've designed with the home in mind. Smaller, quieter, softer materials on the outside. It'll still go to businesses first, because businesses can tolerate a robot that needs help once a day and families cannot.
+
+Sam Host (00:04:45) March 2026 for the F3. Is that a hard date?
+
+Dana Founder (00:04:50) That's the date. We announce developer day a year out on purpose, so the team has a wall to run at.
+
+Sam Host (00:04:59) Let's talk about money. Humanoids are expensive to build. Everybody I talk to says the robotics bubble pops next year and half of these companies die. You'd agree the hype is way ahead of reality, right?
+
+Dana Founder (00:05:14) I wouldn't put it that way. There's a lot of money in the space and some of it will be lost, sure, that's how every hardware wave works. But I don't spend my time forecasting other people's funding rounds. What I can talk about is us. I think we'll be cash-flow positive by the second quarter of 2026. Not profitable on a GAAP basis, cash-flow positive. The fleet business, the software subscription on top of every robot, is what gets us there.
+
+Sam Host (00:05:47) Explain the subscription.
+
+Dana Founder (00:05:49) Every F2 comes with what we call the skills plan. It's a monthly fee per robot. It covers the model updates, remote support, the fleet dashboard and new skills as we release them. Customers like it because the robot keeps getting better after they buy it. We like it because it's recurring revenue and it lines up our incentives with theirs. If the robot is sitting in a corner, they cancel, and they should.
+
+Sam Host (00:06:19) How much of revenue is that today?
+
+Dana Founder (00:06:23) It's meaningful but it's still the smaller half. Hardware is most of the revenue this year because we're shipping so many new units. Over time that flips.
+
+Sam Host (00:06:34) You mentioned the Reno line. What about a second factory? There were rumors about Mexico.
+
+Dana Founder (00:06:41) They're not rumors anymore. Our second factory, in Monterrey, will probably open by the middle of 2026. We've got the site, we've got the local partner, and the permits are moving. The reason I say probably is that permits are the one thing in this business I can't engineer my way around.
+
+Sam Host (00:07:02) Why Monterrey and not another plant in Nevada?
+
+Dana Founder (00:07:07) Supply chain, mostly. A lot of our motor and harness suppliers are already there. And honestly, a second site in a different country is good resilience. If one site goes down for a month, we still ship.
+
+Sam Host (00:07:22) Let's talk about international. Is Ferrowind a US company that sells a little abroad, or a global company?
+
+Dana Founder (00:07:30) Today we're mostly a US company. That's going to change quickly. Half of our revenue will come from outside the United States by the end of 2027, definitely. Japan and Germany are both short of workers in logistics, and both of them are further along than the US in accepting robots in the workplace. I spend a lot of my time in Osaka and Hamburg these days.
+
+Sam Host (00:07:56) Half, definitely. You like that word.
+
+Dana Founder (00:08:00) I only use it when I mean it. I'm pretty careful about which things I say for sure and which things I say I hope.
+
+Sam Host (00:08:10) Okay, so let's test that. Hospitals. There's been a lot of talk about humanoids in hospitals, moving linens, delivering supplies. Where are you on that?
+
+Dana Founder (00:08:21) Hospitals are a great fit for the next stage, because they have long hallways, elevators, repeatable routes, and a massive staffing problem. I'm confident humanoid robots will be working in at least one major hospital in the US by the end of 2026. I'm not saying ours, although I'd like it to be ours. I'm saying the category gets there.
+
+Sam Host (00:08:46) Isn't it true that the F2 still needs a remote operator most of the time? That's what one of your former engineers wrote online.
+
+Dana Founder (00:08:56) That's not how I'd describe it. There is a person in the loop for edge cases, like with any new system, and we're open about that with customers. The share of time that needs a human keeps going down every month. I'd rather be honest about the human in the loop than pretend it isn't there.
+
+Sam Host (00:09:19) Let's zoom out. Price. What does a home humanoid cost, eventually?
+
+Dana Founder (00:09:24) Maybe by 2030 you'll be able to buy a home robot for less than ten thousand dollars. Maybe. That depends on batteries and actuators getting cheaper on the curve they've been on, and on volume. Volume is everything in hardware. The first cars were toys for rich people too.
+
+Sam Host (00:09:44) Under ten grand by 2030. That would change a lot of things.
+
+Dana Founder (00:09:50) It would. But I said maybe, and I meant maybe. I'd put that one at a coin flip.
+
+Sam Host (00:09:58) Surely you'll beat Tesla to a home robot, though? You've been shipping longer.
+
+Dana Founder (00:10:04) I'm not going to make that prediction. They have more money than we do and very good people. I'll let the products do the talking.
+
+Sam Host (00:10:15) What about going public? You've raised a lot of private money.
+
+Dana Founder (00:10:21) We might go public in 2027. It depends on the market and it depends on whether we hit the cash-flow milestone first. I don't want to be a public company that's burning cash. That's a miserable place to be.
+
+Sam Host (00:10:37) Let's talk about the models. Ferrowind open-sourced the base model behind the F2 last year, which surprised a lot of people. Why give that away?
+
+Dana Founder (00:10:48) Because I believe it's the right call for safety. I think open-sourcing the base models for robots is the right call for safety. More eyes on the weights means fewer surprises. A robot is a model with a body, and when a model has a body, the world deserves to be able to inspect how it decides to move. Our moat is the fleet data, the hardware and the service, not the weights.
+
+Sam Host (00:11:17) Some of your competitors would say that's naive. That you're handing your work to anyone, including people who shouldn't have it.
+
+Dana Founder (00:11:26) They might say that. I think the bigger risk is a handful of closed models running millions of machines that nobody outside the company can audit. We publish the evaluations, we publish the failure cases, and we fix things faster because outsiders find them.
+
+Sam Host (00:11:44) What about regulation? There's a proposal floating around for a tax on robots that replace workers. Where do you land?
+
+Dana Founder (00:11:53) I'm against a robot tax. Taxing robots is taxing productivity. If you want to help workers, and we should, fund training and wage insurance directly. Don't make the tool that makes work safer more expensive. Most of the jobs our robots do are the ones with the highest injury rates in a warehouse.
+
+Sam Host (00:12:15) So no regulation at all?
+
+Dana Founder (00:12:18) I didn't say that either. Safety standards for machines that walk around near people, absolutely, and we helped write the draft for the industry group. I'm against a tax that treats automation as the problem.
+
+Sam Host (00:12:33) Let's talk about hiring. How big is Ferrowind today?
+
+Dana Founder (00:12:37) A few hundred people, and growing. Around half are in hardware and manufacturing, a third in software and AI, and the rest in field operations, support and the business side. Field operations is the team people forget. When a robot falls over at a customer site at two in the morning, somebody has to answer the phone.
+
+Sam Host (00:13:00) Does a robot falling over happen a lot?
+
+Dana Founder (00:13:04) Less than it used to. Um, early on it was humbling. We had a pilot where the floor had been waxed the night before and nobody told us. That was a long week. Now the robots check the floor friction before they commit to a fast walk, which is the kind of thing you only learn by being out there.
+
+Sam Host (00:13:28) What's the hardest technical problem you haven't solved?
+
+Dana Founder (00:13:32) Hands. It's always hands. Picking up a box is easy. Picking up a plastic bag full of loose items without tearing it, or folding a shirt, is still very hard. Our hands have gotten a lot better, but a four-year-old still beats our best robot at most tasks that involve soft things.
+
+Sam Host (00:13:54) When do the hands get good enough for a home?
+
+Dana Founder (00:13:59) I honestly don't know, and I'd rather say that than make up a date. We'll know it when the F3 pilots tell us.
+
+Sam Host (00:14:09) Let's do a lightning round. Biggest misconception about humanoids?
+
+Dana Founder (00:14:13) That the humanoid shape is a gimmick. The world is built for people. Doors, stairs, shelves, tools. If you want one machine that works in all of it, it ends up looking a lot like a person.
+
+Sam Host (00:14:29) Favorite robot in fiction?
+
+Dana Founder (00:14:32) The ones that are a bit clumsy and very polite. I won't name names, I'll get letters.
+
+Sam Host (00:14:39) Best advice for a hardware founder starting today?
+
+Dana Founder (00:14:44) Talk to the people who'll be standing next to the machine, not just the people buying it. The buyer cares about cost per pick. The worker next to the robot cares whether it's going to step on their foot. You need both of them on your side.
+
+Sam Host (00:15:03) Last question. Everybody says the robots are coming for the jobs. Five years from now, will there be fewer warehouse workers because of Ferrowind?
+
+Dana Founder (00:15:13) I think the work changes more than the headcount. Our customers keep hiring, they just hire for different roles: fleet supervisors, technicians, people who teach the robots new tasks. But I don't want to wave that question away. Some jobs will go away, and the people in them deserve a real plan, which is why I keep coming back to training.
+
+Sam Host (00:15:38) Dana Founder, CEO of Ferrowind Robotics. Ten thousand robots by the end of this year, for sure, and we'll hold you to it.
+
+Dana Founder (00:15:48) Please do. That's the whole point of saying it out loud.
+
+Sam Host (00:15:53) Thanks for coming on.
+
+Dana Founder (00:15:56) Thanks, Sam. This was fun.

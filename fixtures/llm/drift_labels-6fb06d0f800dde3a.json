@@ -1,0 +1,31 @@
+{
+  "request": {
+    "schemaName": "drift_labels",
+    "variant": null,
+    "system_sha": "2b6023cca8479211",
+    "user_excerpt": "Speaker: Elon Musk\nTopic: mars-landing\nLabel every claim after #1 (3 transitions).\n\n#1\nclaimId: fa78a7860f86\nsaid: 2016-06-01 (Code Conference 2016 interview (reported by Spaceflight Now))\ndeadline: 2"
+  },
+  "response": {
+    "data": {
+      "transitions": [
+        {
+          "claimId": "48f56b2199f4",
+          "label": "pushed_later",
+          "note": "The first Mars flights moved from the 2018 window to a ship ready to launch in about five years, by 2022."
+        },
+        {
+          "claimId": "bc5310538cbb",
+          "label": "pushed_later",
+          "note": "The first uncrewed Mars flights moved from 2022 to the late-2026 window."
+        },
+        {
+          "claimId": "c1c59c9952eb",
+          "label": "goalposts_moved",
+          "note": "The target changed from uncrewed Starships to Mars in 2026 to a self-growing city on the Moon within 10 years, with a Mars city put at more than 20 years."
+        }
+      ]
+    },
+    "citations": [],
+    "model": "human:seed-drift"
+  }
+}

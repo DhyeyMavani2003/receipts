@@ -1,0 +1,18 @@
+{
+  "request": {
+    "schemaName": "ask_answer_v2",
+    "variant": null,
+    "system_sha": "871e2f53eaec112e",
+    "user_excerpt": "Question: What's coming due before the end of the year?\nToday: 2026-09-27\nQuestion type: predictions coming due\nTime window: before the end of the year (deadlines 2026-09-28 to 2026-12-31)\n\nScores, al"
+  },
+  "response": {
+    "data": {
+      "answer": "2026-12-31: Elon Musk, hundreds of thousands, possibly over one million, Teslas doing self-driving in the US by year-end; this is waiting on its deadline, and the receipt says “by the end of next year” and “over a million Teslas doing self-driving in the US.”",
+      "cited_claim_ids": [
+        "83695ad283fc"
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

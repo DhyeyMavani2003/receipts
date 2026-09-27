@@ -1,0 +1,7 @@
+{"intent": "how much should I trust Sam Altman on AGI timelines?", "expected_skill": "receipts-ask"}
+{"intent": "what's their track record on crypto calls?", "expected_skill": "receipts-ask", "ambiguous_with": ["data-research"]}
+{"intent": "show me the receipts on Cathie Wood and Tesla price targets", "expected_skill": "receipts-ask"}
+{"intent": "is this person reliable on interest rate forecasts? thinking of Jerome Powell", "expected_skill": "receipts-ask"}
+{"intent": "how accurate are their predictions about EV sales overall?", "expected_skill": "receipts-ask"}
+{"intent": "did that prediction come true about the 2020 robotaxi fleet", "expected_skill": "receipts-grade"}
+{"intent": "how much should the dough rise overnight", "expected_skill": null}

@@ -1,0 +1,19 @@
+{
+  "request": {
+    "schemaName": "ask_answer_v2",
+    "variant": null,
+    "system_sha": "871e2f53eaec112e",
+    "user_excerpt": "Question: Has Jensen changed his tune on AGI?\nToday: 2026-09-27\nQuestion type: drift (how their story or view changed over time)\nTopics on record that match: agi-timeline\n\nScores, all topics:\n- Jensen"
+  },
+  "response": {
+    "data": {
+      "answer": "Yes: on this record, Jensen Huang moved from a 2024 five-year, test-based AGI forecast to a 2026 statement that AGI is already here.\n\nIn 2024 he framed AGI as something AI might reach by March 2029, saying that in “five years time” AI would do well on “every single” human-comparison test; that prediction is still waiting on its deadline. In 2026 he escalated the claim, saying “AGI has arrived,” a stance receipt rather than a graded prediction because there is no agreed AGI definition or test in the record.",
+      "cited_claim_ids": [
+        "29fbb2aa178a",
+        "837e87c1c364"
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

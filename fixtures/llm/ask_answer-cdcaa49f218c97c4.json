@@ -1,0 +1,23 @@
+{
+  "request": {
+    "schemaName": "ask_answer",
+    "variant": null,
+    "system_sha": "e829c6df7f5604ea",
+    "user_excerpt": "Question: How much should I trust Elon Musk on robotaxi timelines?\n\n\n\n## Elon Musk (elon-musk)\nTrack record, all topics: 21 predictions on record: 4 correct, 9 incorrect, 0 partial, 0 unresolvable, 8 "
+  },
+  "response": {
+    "data": {
+      "answer": "Give Musk’s robotaxi timelines low weight: on this topic he is 2 correct out of 6 graded predictions, with 6 still pending, 33% accuracy, a 0.43 Brier score versus 0.25 for a coin flip, and late successes taking 2.4x as long as promised. The misses include 2016-10-19: “by the end of next year” for a no-touch LA-to-New York autonomy demo, 2019-04-22: “we'll have over a million robotaxis on the road” by 2020, 2025-01-29: “unsupervised, no one in the car” in Austin in June 2025, and 2025-07-23: “half the population of the US” by end-2025. The positive cases are narrower/reframed: 2025-05-20: “looking good for Austin next month” and 2025-06-11: “First Tesla that drives itself” to a customer house. Uncertainty: 12 robotaxi predictions are recorded; 6 are pending/not yet due and none are unresolvable.",
+      "cited_claim_ids": [
+        "9ea0a7398c8b",
+        "319888cf53d5",
+        "0e10abd65b43",
+        "59ebc949b6f1",
+        "d8b48b011ceb",
+        "e0977fae1132"
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

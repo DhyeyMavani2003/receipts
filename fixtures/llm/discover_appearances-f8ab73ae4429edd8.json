@@ -1,0 +1,514 @@
+{
+  "request": {
+    "schemaName": "discover_appearances",
+    "variant": null,
+    "system_sha": "b03baf7468b0c73e",
+    "user_excerpt": "Person: \"Jensen Huang\"\nToday: 2026-09-27\nWindow: published from 2026-03-31 to 2026-09-27\nLimit: at most 5 appearances, newest first"
+  },
+  "response": {
+    "data": {
+      "candidates": [
+        {
+          "title": "Jensen Huang Thinks A.I. Alarmism Has Gone Too Far | The Ezra Klein Show",
+          "show": "The Ezra Klein Show",
+          "host": "Ezra Klein",
+          "date": "2026-09-23",
+          "url": "https://www.youtube.com/watch?v=HjurAWAr_nY",
+          "kind": "interview",
+          "duration_min": 107,
+          "transcript_source": "youtube",
+          "why": "Huang discusses AI safety, regulation, jobs, open models, recursive self-improvement, chip exports, energy, and Nvidia’s role in the AI infrastructure stack."
+        },
+        {
+          "title": "Jensen Huang x Marc Benioff at Dreamforce 2026 #DF26",
+          "show": "Salesforce",
+          "host": "Marc Benioff",
+          "date": "2026-09-17",
+          "url": "https://www.youtube.com/watch?v=lj04-qfss_A",
+          "kind": "interview",
+          "duration_min": null,
+          "transcript_source": "youtube",
+          "why": "Huang and Benioff discuss Salesforce’s Koa model, NVIDIA Nemotron, enterprise AI agents, AI adoption, and the pace and governance of AI development."
+        },
+        {
+          "title": "Jensen Huang: The Doomer Hoax, Superintelligence is Here, and The Future of AI (ft. President Trump)",
+          "show": "All-In Podcast",
+          "host": "Chamath Palihapitiya, Jason Calacanis, David Sacks, David Friedberg",
+          "date": "2026-09-14",
+          "url": "https://www.youtube.com/watch?v=S7CrlFLAmEA",
+          "kind": "podcast",
+          "duration_min": 47,
+          "transcript_source": "youtube",
+          "why": "Huang talks with the All-In hosts about AI doomerism, regulation, open source models, China, Nvidia’s capital allocation, and a live call with President Trump."
+        },
+        {
+          "title": "NVIDIA (NVDA) Transcript: Goldman Sachs Communacopia + Technology Conference 2026",
+          "show": "Goldman Sachs Communacopia + Technology Conference 2026",
+          "host": "James Schneider",
+          "date": "2026-09-10",
+          "url": "https://stockanalysis.com/stocks/nvda/transcripts/740955-goldman-sachs-communacopia-technology-conference-2026/",
+          "kind": "other",
+          "duration_min": null,
+          "transcript_source": "page",
+          "why": "Huang discusses AI infrastructure spending, generative computing, Moore’s Law, Nvidia’s partnerships, supply chain strategy, and global AI expansion."
+        },
+        {
+          "title": "Commerce Sec. Lutnick and Nvidia CEO Jensen Huang in a fireside chat at G20 meeting - 9/2/2026",
+          "show": "CNBC Television",
+          "host": "Howard Lutnick",
+          "date": "2026-09-02",
+          "url": "https://www.youtube.com/watch?v=VrgRI00UPxc",
+          "kind": "interview",
+          "duration_min": 33,
+          "transcript_source": "youtube",
+          "why": "Huang and Lutnick discuss AI as economic infrastructure, national AI strategy, AI safety and regulation, AGI, jobs, and the importance of domestic AI infrastructure."
+        }
+      ]
+    },
+    "citations": [],
+    "searched": [
+      {
+        "url": "https://www.pcgamer.com/software/ai/i-remember-when-jensen-huang-used-to-sell-me-gpus-now-hes-out-there-having-to-deny-that-ai-will-cause-the-end-of-the-world/"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jw_o0xr8MWU"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=kDd24YOeqQQ"
+      },
+      {
+        "url": "https://www.usetranscribe.io/yt/9XB-LsfpvCU/quantum-computing-update"
+      },
+      {
+        "url": "https://glasp.co/youtube/S7CrlFLAmEA"
+      },
+      {
+        "url": "https://www.usetranscribe.io/yt/HCSge0jKQME/nvidia-ai-summit-chat"
+      },
+      {
+        "url": "https://www.voicerank.app/episodes/fe6d3ec2-23d1-405c-ba12-5b4a295ac4de"
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/jensen-huang-the-mindset-that-built-nvidia/id1236907421?i=1000778610475"
+      },
+      {
+        "url": "https://www.nvidia.com/gtc/keynote/?video=1"
+      },
+      {
+        "url": "https://www.rev.com/transcripts/nvidia-ceo-fireside-chat"
+      },
+      {
+        "url": "https://podcastrex.com/shows/all-in-with-chamath-jason-sacks-friedberg/jensen-huang-the-doomer-hoax-superintelligence-is-here-and-the-future-of-ai-ft-president-trump"
+      },
+      {
+        "url": "https://podcastrex.com/shows/the-ezra-klein-show/jensen-huang-vs-the-ai-doomers"
+      },
+      {
+        "url": "https://podcore.luzlabs.ai/briefs/jensen-huang-the-doomer-hoax-superintelligence-is-here-and-S7CrlFLAmEA"
+      },
+      {
+        "url": "https://partners.dealroom.co/news/note/jensen-huang-at-all-in-summit-ai-s-next-constraint-is-power-not-models"
+      },
+      {
+        "url": "https://invidious.thehtmlproject.com/watch?listen=true&v=dUFis1dte14"
+      },
+      {
+        "url": "https://msthesource.thesourcemediaassets.com/2026/06/06022026_Nadella_TRANSCRIPT_Build-Keynote.pdf"
+      },
+      {
+        "url": "https://chennaivision.com/wp-content/uploads/2024/10/Fireside-chat-with-NVIDIA-CEO-Jensen-Huang-and-RIL-CMD-Mukesh-Ambani-at-NVIDIA-AI-Summit-2024.pdf"
+      },
+      {
+        "url": "https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9781003514985/d8d47655-19ea-494d-8925-a965ce591f20/preview.pdf?AWSAccessKeyId=ASIAQFVOSJ57XFE3V7QF&Expires=1774219207&response-content-disposition=attachment%3B+filename%3D%2210.4324_9781003514985_previewpdf.pdf%22"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nvidia_GTC"
+      },
+      {
+        "url": "https://www.reddit.com/r/philosophypodcasts/comments/1wo3wt0/the_ezra_klein_show_jensen_huang_vs_the_ai/"
+      },
+      {
+        "url": "https://www.reddit.com/r/NVDA_Stock/comments/1wcxvdt/nvidia_at_goldman_sachs_communacopia_technology/"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/62fa43eded6ae54c915dcbae/"
+      },
+      {
+        "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf"
+      },
+      {
+        "url": "https://www.nvidia.com/content/GTC-2010/pdfs/4006_GTC2010.pdf"
+      },
+      {
+        "url": "https://www.axios.com/2026/07/23/axios-interview-jensen-huang-is-ais-anti-doom-evangelist"
+      },
+      {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/jensen-huang-thinks-china-will-develop-its-own-advanced-lithography-systems-by-2030-nvidia-ceo-says-achievement-of-that-capability-is-just-a-matter-of-time"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/14/trump-jensen-huang-nvidia-ai-all-in-summit"
+      },
+      {
+        "url": "https://www.techradar.com/pro/were-going-through-a-new-industrial-revolution-nvidia-ceo-jensen-huang-and-anthropic-ceo-dario-amodei-share-differing-views-on-ai-at-dreamforce-2026"
+      },
+      {
+        "url": "https://www.reddit.com/r/AIDangers/comments/1vm66t1/jensen_huang_says_ai_leaders_need_to_be_more/"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Diary_of_a_CEO"
+      },
+      {
+        "url": "https://www.pcgamer.com/hardware/nvidia-ceo-jensen-huang-tells-trump-he-agrees-the-ai-doomsayers-are-perpetrating-a-hoax-you-saw-through-all-of-that/"
+      },
+      {
+        "url": "https://www.reddit.com/r/NvidiaStock/comments/1dur319"
+      },
+      {
+        "url": "https://www.reddit.com/r/CRWV/comments/1wd7f2g/jensen_huang_at_goldman_sachs_conference_ai/"
+      },
+      {
+        "url": "https://as.com/actualidad/sociedad/jensen-huang-ceo-de-nvidia-lanza-un-aviso-a-los-jovenes-si-yo-fuera-estudiante-lo-primero-que-estudiaria-seria-inteligencia-artificial-f202609-n/"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=S7CrlFLAmEA"
+      },
+      {
+        "url": "https://podscan.fm/player/the-ezra-klein-show/jensen-huang-vs-the-ai-doomers"
+      },
+      {
+        "url": "https://podcastrex.com/shows/the-ezra-klein-show/jensen-huang-vs-the-ai-doomers/transcript"
+      },
+      {
+        "url": "https://podwise.ai/episodes/8976884"
+      },
+      {
+        "url": "https://www.reddit.com/r/ezraklein/comments/1wo36ud/opinion_jensen_huang_vs_the_ai_doomers/"
+      },
+      {
+        "url": "https://www.reddit.com/r/slatestarcodex/comments/1wo3wse/jensen_huang_vs_the_ai_doomers_the_ezra_klein_show/"
+      },
+      {
+        "url": "https://podpulse.ai/podcast/the-ezra-klein-show-84/jensen-huang-on-ai-safety-nvidia-and-the-future-of-work"
+      },
+      {
+        "url": "https://www.techmeme.com/260923/p30"
+      },
+      {
+        "url": "https://aifrontierpost.com/articles/jensen-huang-anti-doomer-clip-r-accelerate/"
+      },
+      {
+        "url": "https://thesecondorder.net/podcasts/the-ezra-klein-show/prioritizing-operational-rigor-and-verification-in-ai-development"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=lj04-qfss_A"
+      },
+      {
+        "url": "https://www.reddit.com/r/hardfork/comments/1wptbzb/episode_the_ezra_klein_show_jensen_huang_thinks/"
+      },
+      {
+        "url": "https://www.reddit.com/r/accelerate/comments/1wpdu9w/jensen_dropping_the_truth_bomb_against_doomers/"
+      },
+      {
+        "url": "https://www.ezrakleinbooks.com/episode/were-not-losing-control-of-ai-were-giving-it-away/"
+      },
+      {
+        "url": "https://dailyjournal.news/videos/jensen-vs-nyt-new-model-reactions-saudi-evs-you-can-see-everything"
+      },
+      {
+        "url": "https://rivva.de/337186956"
+      },
+      {
+        "url": "https://www.thepodcastsummary.com/episodes/JPKRKFkXO2I/"
+      },
+      {
+        "url": "https://www.reddit.com/r/ezraklein/comments/1wog58c/after_todays_episode_i_would_like_to_hear_a/"
+      },
+      {
+        "url": "https://www.reddit.com/r/SubredditDrama/comments/1wpad43/rezraklein_has_a_discussion_on_the_ramifications/"
+      },
+      {
+        "url": "https://www.reddit.com/r/singularity/comments/1woa76i/jensen_huang_thinks_ai_alarmism_has_gone_too_far/"
+      },
+      {
+        "url": "https://www.reddit.com/r/technology/comments/1wrlg7c/jensen_huang_says_ai_labs_that_cant_control_their/"
+      },
+      {
+        "url": "https://www.reddit.com/r/Destiny/comments/1wo90gz/jensen_juang_thinks_ai_alarmism_has_gone_too_far/"
+      },
+      {
+        "url": "https://www.reddit.com/r/ControlProblem/comments/1wqh5gq/jensen_huang_naive/"
+      },
+      {
+        "url": "https://www.reddit.com/r/ezraklein/comments/1wptjgl/removed/"
+      },
+      {
+        "url": "https://www.theatlantic.com/technology/2026/09/jensen-huang-ai-anti-doomer/688654/?utm_source=openai"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/15/trump-ai-doom-safety-regulation-hoax"
+      },
+      {
+        "url": "https://natokhd.com/video/jensen-huang-thinks-ai-alarmism-has-gone-too-far-the-ezra-klein-show/HjurAWAr_nY"
+      },
+      {
+        "url": "https://www.globalsouth.news/blog/20260924-jensen-huang-to-ezra-klein-ai-alarmism-has-gone-too-far-and/"
+      },
+      {
+        "url": "https://podcastrex.com/shows/hard-fork/the-ezra-klein-show-jensen-huang-thinks-ai-alarmism-has-gone-too-far"
+      },
+      {
+        "url": "https://thenewstack.io/huang-ai-agents-engineers/"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/hanshenyuan_jensen-huang-thinks-ai-alarmism-has-gone-activity-7508667526520705024-qDxW"
+      },
+      {
+        "url": "https://pc.st/1528594034/e"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/budcaddell_jensen-huang-thinks-ai-alarmism-has-gone-activity-7508708555332677632-Vseg"
+      },
+      {
+        "url": "https://tbpn.substack.com/p/jensen-vs-nyt"
+      },
+      {
+        "url": "https://www.last.fm/ru/music/Jensen%2BHuang%2BIs%2BBuilding%2BYour%2BFuture"
+      },
+      {
+        "url": "https://podwise.ai/episodes/8980260"
+      },
+      {
+        "url": "https://www.ezrakleinbooks.com/episode/jensen-huang-vs-the-ai-doomers/"
+      },
+      {
+        "url": "https://www.secrss.com/articles/94284"
+      },
+      {
+        "url": "https://asia.aguea.com/nvidia"
+      },
+      {
+        "url": "https://ceointerviews.ai/interview/2922055/"
+      },
+      {
+        "url": "https://podscan.fm/podcasts/the-ezra-klein-show/episodes/jensen-huang-vs-the-ai-doomers"
+      },
+      {
+        "url": "https://podfollow.com/the-ezra-klein-show-1/episode/8c32e96e939dcf695ff4e577ec24d17056513c55/view"
+      },
+      {
+        "url": "https://pc.st/e/1L7Z5x4BhEA"
+      },
+      {
+        "url": "https://www.reddit.com/r/theprimeagen/comments/1wqasts/nvidia_ceo_jensen_huang_says_were_in_a_low_iq_era/"
+      },
+      {
+        "url": "https://www.reddit.com/r/myclaw/comments/1wq0za9/jensen_huang_says_kids_may_not_need_basic_math/"
+      },
+      {
+        "url": "https://www.reddit.com/r/NvidiaStock/comments/1wollh8/jensen_interviewed_by_ezra_klein_comments_by_new/"
+      },
+      {
+        "url": "https://www.reddit.com/r/NVDA_Stock/comments/1wo90tj/jensen_interviewed_by_ezra_klein_comments_by_new/"
+      },
+      {
+        "url": "https://www.reddit.com/r/BetterOffline/comments/1wp6zus/ezra_klein_asked_nvidia_ceo_jensen_huang_about_ai/"
+      },
+      {
+        "url": "https://cache.91c2be992dfb7dcc6256c04eaf0f366c.r2.cloudflarestorage.com/5f5798bd-33bc-4d52-af9b-3e1975bf88da/12e1f214-4bef-489b-8dc2-7813029a3f6a?response-content-disposition=inline%3B+filename%3D%22Vedak_Yao_CIC25_Prompt+Engineering_101.pdf%22&response-content-type=application%2Fpdf"
+      },
+      {
+        "url": "https://cache.91c2be992dfb7dcc6256c04eaf0f366c.r2.cloudflarestorage.com/5f5798bd-33bc-4d52-af9b-3e1975bf88da/12e1f214-4bef-489b-8dc2-7813029a3f6a?response-content-disposition=inline%3B+filename%3D%22Vedak_Yao_CIC25_Prompt+Engineering_101.pdf%22&response-content-type=application%2Fpdf"
+      },
+      {
+        "url": "https://members.porterandcompanyresearch.com/wp-content/uploads/2024/07/Investment_Chronicles_Issue_JULY_2024_WEB.pdf"
+      },
+      {
+        "url": "https://downloads.regulations.gov/OSTP-TECH-2023-0007-0279/attachment_1.pdf"
+      },
+      {
+        "url": "https://www.axios.com/2026/07/22/nvidia-jensen-huang-china-open-source-ai"
+      },
+      {
+        "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/goldman-sachs-communacopia-technology-conference-2026-transcript.pdf"
+      },
+      {
+        "url": "https://semiboard.com/ticker/NVDA/conference_2026-09-10.html"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VrgRI00UPxc"
+      },
+      {
+        "url": "https://www.publicnow.com/view/F5A4F95C90B45046EABFB9957926E7FAB822CF34"
+      },
+      {
+        "url": "https://www.axios.com/2026/07/24/nvidia-chips-ai-boom"
+      },
+      {
+        "url": "https://ir.flywire.com/static-files/ab6c47c3-50d4-4033-9b6e-21f61901b600"
+      },
+      {
+        "url": "https://www.reutersconnect.com/item/nvidia-ceo-urges-g20-to-avoid-ai-rules-on-theoretical-harms/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTc0MTAyMDkyMDI2UlAx"
+      },
+      {
+        "url": "https://github.com/Princeu3/yc-startup-school-2026-notes/blob/main/sessions/01-jensen-huang.md"
+      },
+      {
+        "url": "https://github.com/Princeu3/yc-startup-school-2026-notes/blob/main/README.md"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EFY-qjUZPkc"
+      },
+      {
+        "url": "https://www.reddit.com/r/RDDT/comments/1wb0elb/icymi_fireside_chat_with_steve_huffman_goldman/"
+      },
+      {
+        "url": "https://www.brainandbot.ai/freeguide/yc-2026-mis-lessons.html"
+      },
+      {
+        "url": "https://redeyereturns.substack.com/p/nvidia-at-goldman-sachs-communacopia"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/nvda/transcripts/740955-goldman-sachs-communacopia-technology-conference-2026/"
+      },
+      {
+        "url": "https://www.reddit.com/r/AMD_Stock/comments/1wdnps9/transcript_goldman_sachs_community_development/"
+      },
+      {
+        "url": "https://d1io3yog0oux5.cloudfront.net/_6d16900039b04820ece03a29268519d1/kornferry/db/1102/10730/transcript/GOLD006_090924a_KornFerry_.pdf"
+      },
+      {
+        "url": "https://www.reddit.com/r/SKHynix/comments/1w7wneh/upcoming_eventsindustry_newspotential_catalysts/"
+      },
+      {
+        "url": "https://www.reddit.com/r/SMCIDiscussion/comments/1wcqsr4/smci_at_goldman_sachs_technology_conference_today/"
+      },
+      {
+        "url": "https://www.reddit.com/r/Kioxia_stock/comments/1w7wsxs/upcoming_eventsindustry_newspotential_catalysts/"
+      },
+      {
+        "url": "https://www.reddit.com/r/AMD_Stock/comments/1nc3v1s"
+      },
+      {
+        "url": "https://www.reddit.com/r/NvidiaStock/comments/1v4mf1u/jensen_huang_on_axios_interview_ai_doomers_have/"
+      },
+      {
+        "url": "https://www.reddit.com/r/NVDA_Stock/comments/1nc7gp5"
+      },
+      {
+        "url": "https://www.reddit.com/r/SpaceXNews/comments/1wd44q9/spacex_cfo_bret_johnsen_speaks_at_todays_goldman/"
+      },
+      {
+        "url": "https://www.reddit.com/r/AURstock/comments/1wc86s3/september_10_2026_daily_discussion_thread/"
+      },
+      {
+        "url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/events/2025-goldman-sachs-communacopia-and-technology-conference/goldman-sachs-communacopia-and-technology-conference-transcript.pdf"
+      },
+      {
+        "url": "https://s29.q4cdn.com/853855404/files/doc_events/2025/Sep/08/GS-Transcript-09-08-25.pdf"
+      },
+      {
+        "url": "https://s21.q4cdn.com/165405286/files/doc_events/2025/09/10/Goldman-Sachs-Communacopia-Technology-Conference-2025.pdf"
+      },
+      {
+        "url": "https://www.axios.com/2026/07/24/nvidia-jensen-huang-ai-jobs"
+      },
+      {
+        "url": "https://www.axios.com/newsletters/axios-pm-0211b26e-b82c-40eb-ace1-e5a2141f115d"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/02/lutnicks-g20-summit-flex-parade-of-tech-moguls-in-nc-today"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Garry_Tan"
+      },
+      {
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-argues-american-companies-should-be-allowed-to-use-chinese-ai-models-nvidia-ceo-says-backdoors-connected-to-china-are-misconceptions"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Y_Combinator"
+      },
+      {
+        "url": "https://www.saytrace.com/interviews/g20-lutnick-huang-fireside-chat-20260902"
+      },
+      {
+        "url": "https://ceointerviews.ai/interview/1297494/"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/c9d95cb7-41a1-4e0d-88b6-ae08f9cbe4d6"
+      },
+      {
+        "url": "https://www.kino.net.pl/watch?listen=1&v=EFY-qjUZPkc"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/14313006-1751-49ba-af15-d0c527b1070b"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/dd674a60-b010-4fe3-931f-8f31a1fd70d5"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/b76bf3d8-3b45-4064-b5e5-248768038a44"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/1badedcc-8a1f-4dfb-899f-9891cc98248d"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/d872e511-3c22-45ef-9a97-e6d2de1fec45"
+      },
+      {
+        "url": "https://www.saytrace.com/viewpoints/96281379-5213-4949-85bb-e4e2ebf4c3be"
+      },
+      {
+        "url": "https://salda.ws/video.php?q=commerce+stream"
+      },
+      {
+        "url": "https://ceointerviews.ai/interview/1113116/"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=SCbNRvimkRA"
+      },
+      {
+        "url": "https://ceointerviews.ai/entity/1259-jensen-huang-nvidia/"
+      },
+      {
+        "url": "https://rn.linkedin.com/company/salesforce"
+      },
+      {
+        "url": "https://www.itpoint.cz/enehano-solutions/youtube-salesforce/"
+      },
+      {
+        "url": "https://cellcog.ai/blog/we-must-pace-the-frontier/"
+      },
+      {
+        "url": "https://tk.linkedin.com/company/salesforce"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/ai/"
+      },
+      {
+        "url": "https://podcastrex.com/shows/access/marc-benioff-on-the-ai-boom-saaspocalypse-and-future-of-slack"
+      },
+      {
+        "url": "https://classyainews.com/article/dreamforce-safety-pacing-altman-amodei-huang-interview-sep-2026"
+      },
+      {
+        "url": "https://ceointerviews.ai/entity/138208-roland-busch-siemens/"
+      },
+      {
+        "url": "https://siliconangle.com/2026/09/21/salesforce-dreamforce-nscale-thecubepod/"
+      },
+      {
+        "url": "https://ai.linkedin.com/company/salesforce/"
+      },
+      {
+        "url": "https://thenextweb.com/news/jensen-huang-dreamforce-no-new-ai-laws-amodei"
+      },
+      {
+        "url": "https://www.reddit.com/r/salesforce/comments/1wj067w/did_anyone_else_notice_marc_benioffs_very/"
+      }
+    ],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

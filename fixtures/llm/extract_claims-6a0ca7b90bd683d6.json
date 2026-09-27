@@ -1,0 +1,15 @@
+{
+  "request": {
+    "schemaName": "extract_claims",
+    "variant": null,
+    "system_sha": "40470d54e7f1941f",
+    "user_excerpt": "Speaker: Dana Founder\nHost (never attribute their words to the speaker): Sam Host\nSource: \"Synthetic Interview (test fixture)\" (podcast) https://example.com/synthetic-interview\nDate said: 2025-01-15 ("
+  },
+  "response": {
+    "data": {
+      "claims": []
+    },
+    "citations": [],
+    "model": "synthetic-fixture"
+  }
+}

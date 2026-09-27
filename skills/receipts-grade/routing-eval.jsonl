@@ -1,0 +1,7 @@
+{"intent": "grade the predictions Cathie Wood made in 2021 that are past their deadline", "expected_skill": "receipts-grade"}
+{"intent": "which predictions came due this month for Vitalik?", "expected_skill": "receipts-grade"}
+{"intent": "did that prediction come true? the one about full self-driving by 2020", "expected_skill": "receipts-grade"}
+{"intent": "score the due bets on Jensen Huang's page", "expected_skill": "receipts-grade"}
+{"intent": "resolve the due predictions and refresh everyone's scorecard", "expected_skill": "receipts-grade"}
+{"intent": "how much should I trust Elon on robotaxis?", "expected_skill": "receipts-ask"}
+{"intent": "grade my essay for grammar and flow", "expected_skill": null}

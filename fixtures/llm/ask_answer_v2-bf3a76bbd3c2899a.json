@@ -1,0 +1,20 @@
+{
+  "request": {
+    "schemaName": "ask_answer_v2",
+    "variant": null,
+    "system_sha": "871e2f53eaec112e",
+    "user_excerpt": "Question: Who has been most wrong about robotaxis?\nToday: 2026-09-27\nQuestion type: ranking of people\nTopics on record that match: autonomous-driving-regulation, lyft-autonomous-rides, tesla-fsd-archi"
+  },
+  "response": {
+    "data": {
+      "answer": "By the ranking in this record, Elon Musk has been most often wrong about robotaxis: 4 did not happen out of 6 graded receipts, versus John Zimmer’s 1 did not happen out of 1.\n\n1. Elon Musk: 6 graded, 2 came true, 4 did not happen, accuracy 33%, calibration/Brier 0.43. Examples: 2019-04-22: \"we'll have over a million robotaxis on the road\" did not happen by 2020; 2025-07-23: \"half the population of the US\" did not happen by end-2025.\n2. John Zimmer: 1 graded, 0 came true, 1 did not happen, accuracy 0%, calibration/Brier 0.72. His 2016-09-18 prediction that autonomous fleets would be the \"majority of Lyft rides\" within five years did not happen.\n\nBrier measures calibration: lower is better, and 0.25 is a coin flip.",
+      "cited_claim_ids": [
+        "319888cf53d5",
+        "59ebc949b6f1",
+        "4ecfda8ce592"
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

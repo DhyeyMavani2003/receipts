@@ -1,0 +1,148 @@
+{
+  "request": {
+    "schemaName": "extract_claims",
+    "variant": null,
+    "system_sha": "40470d54e7f1941f",
+    "user_excerpt": "Speaker: Elon Musk\nHost (never attribute their words to the speaker): David Faber\nSource: \"CNBC interview with David Faber at Giga Texas, Part 1\" (podcast) https://www.youtube.com/watch?v=6hz9Bqnfi-I\n"
+  },
+  "response": {
+    "data": {
+      "claims": [
+        {
+          "quote": "Correct.\nRight. The car it won't there's not\ngoing to be somebody sitting there.\nRight.",
+          "claim": "Tesla's robotaxi deployment will not have a person sitting in the car as a safety driver.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Credible reports, Tesla disclosures, or footage from Tesla robotaxi rides show that customer rides operated without any in-car safety driver or operator.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "Well, interestingly, in China, we we\nwe're not allowed to ch train on videos\nin China. So, when we uh released uh\nfull self driving, it was actually just\ntrained on the rest of the world, but\nnot in China.",
+          "claim": "Tesla is not allowed to train Full Self-Driving on videos in China.",
+          "type": "factual",
+          "topic": "tesla-fsd-china",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Chinese regulatory records, Tesla disclosures, or credible reporting confirm that Tesla was not permitted to use China video data to train Full Self-Driving.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "Well, interestingly, in China, we we\nwe're not allowed to ch train on videos\nin China. So, when we uh released uh\nfull self driving, it was actually just\ntrained on the rest of the world, but\nnot in China.",
+          "claim": "Tesla's China release of Full Self-Driving was trained on data from the rest of the world, not on China data.",
+          "type": "factual",
+          "topic": "tesla-fsd-china",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla technical disclosures, regulatory filings, or credible reporting show whether the China FSD release was trained without China road-video data.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "supervised full self driving where where\nthere's a a person in the car uh has\napproval in China",
+          "claim": "Tesla's supervised Full Self-Driving, with a person in the car, has approval in China.",
+          "type": "factual",
+          "topic": "tesla-fsd-china",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Chinese regulatory approvals, Tesla disclosures, or credible reporting confirm that supervised Tesla Full Self-Driving had approval in China at the time of the interview.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "as we whenever we release a new\nversion uh we have to get an incremental\napproval",
+          "claim": "Tesla has to get incremental approval in China whenever it releases a new version of Full Self-Driving.",
+          "type": "factual",
+          "topic": "tesla-fsd-china",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Chinese regulatory procedures, Tesla disclosures, or credible reporting show whether each new Tesla FSD version in China required incremental approval.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "I believe that uh we we want to live in\na free society where um people are\nallowed to say what they want to say um\nwithin reasonable bounds like you know\nyou can't advocate for the murder of\nsomebody uh uh but uh free speech uh is\nthe bedrock of a functioning democracy.",
+          "claim": "Elon Musk believes people should be allowed to say what they want within reasonable bounds and that free speech is the bedrock of a functioning democracy.",
+          "type": "stance",
+          "topic": "free-speech",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Future public statements or actions by Elon Musk show that he continues to support broad free speech within the bounds he described.",
+          "hedge": "I believe",
+          "specificity": 3
+        },
+        {
+          "quote": "there's not going\nto be any savings until October, right?\nBecause the severance goes through\nSeptember.",
+          "claim": "DOGE's federal employee severance program will not produce savings before October 2025 because the severance runs through September 2025.",
+          "type": "prediction",
+          "topic": "doge-savings",
+          "targetDate": "2025-09-30",
+          "targetDateInferred": true,
+          "resolutionCriteria": "Federal payroll records, budget data, or credible analyses show no net savings from DOGE-related severance or early-retirement offers before October 1, 2025.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "We first of all so I think the in\nour opinion we've we've we've created\n160 uh billion dollar delta FY25 to FY26\nvery significant that's 16% of the way\ntowards a trillion in in 5 months.",
+          "claim": "DOGE's actions will create a $160 billion spending delta from FY2025 to FY2026.",
+          "type": "prediction",
+          "topic": "doge-savings",
+          "targetDate": "2026-09-30",
+          "targetDateInferred": false,
+          "resolutionCriteria": "U.S. federal budget data and credible analyses show that DOGE actions produced at least a $160 billion spending or deficit-improvement delta between FY2025 and FY2026.",
+          "hedge": "I think",
+          "specificity": 5
+        },
+        {
+          "quote": "Well\nre really the only things that matter in\nlong term are autonomy and optimis um\nthat those overwhelmingly dominate the\nthe future of financial success of the\ncompany.",
+          "claim": "Elon Musk's position is that autonomy and Optimus will overwhelmingly dominate Tesla's long-term financial success.",
+          "type": "stance",
+          "topic": "tesla-autonomy-optimus",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Future statements or strategic actions by Elon Musk show whether he continues to hold that autonomy and Optimus are the dominant drivers of Tesla's long-term financial success.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "as for Q1, uh, we had a a\nglobal factory changeover for the Model\nY.",
+          "claim": "Tesla had a global factory changeover for the Model Y in the first quarter of 2025.",
+          "type": "factual",
+          "topic": "tesla-model-y-changeover",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla production reports, earnings materials, or credible reporting confirm a global Model Y factory changeover in Q1 2025.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "So, uh, there's a new, uh, version of\nthe Model Y that came out, which\nrequired a factory shutdown across the\nworld.",
+          "claim": "The new Tesla Model Y version required factory shutdowns worldwide.",
+          "type": "factual",
+          "topic": "tesla-model-y-changeover",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla production disclosures, factory schedules, earnings materials, or credible reporting confirm that the new Model Y required factory shutdowns worldwide.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "Model Y is the number one selling\ncar of any kind, number one in the\nworld.",
+          "claim": "Tesla Model Y was the number-one selling car of any kind worldwide at the time of the interview.",
+          "type": "factual",
+          "topic": "tesla-model-y-sales",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Global auto sales rankings available around May 20, 2025 show whether Tesla Model Y was the world's top-selling car of any kind.",
+          "hedge": "",
+          "specificity": 4
+        }
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

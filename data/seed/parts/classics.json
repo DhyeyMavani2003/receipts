@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "claims": [
+    {
+      "id": "",
+      "person": "Steve Jobs",
+      "personSlug": "steve-jobs",
+      "quote": "So here we are, and we're gonna be shipping it in June in the U.S.",
+      "quoteVerified": true,
+      "claim": "Apple will begin shipping the iPhone in the United States in June 2007.",
+      "type": "prediction",
+      "topic": "iphone-launch",
+      "saidDate": "2007-01-09",
+      "targetDate": "2007-06-30",
+      "targetDateInferred": false,
+      "resolutionCriteria": "The iPhone goes on sale to U.S. customers on or before June 30, 2007.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Macworld San Francisco 2007 keynote (transcript via European Rhetoric)",
+        "url": "http://www.european-rhetoric.com/analyses/ikeynote-analysis-iphone/transcript-2007/",
+        "date": "2007-01-09",
+        "kind": "keynote"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.99,
+        "rationale": "The iPhone went on sale in U.S. stores on June 29, 2007, within the month Jobs announced.",
+        "evidence": [
+          {
+            "url": "https://money.cnn.com/2007/06/29/technology/iphone_launches/index.htm",
+            "title": "The wait is over",
+            "date": "2007-06-29",
+            "snippet": "The first Apple iPhones went on sale Friday, ending months of mounting anticipation."
+          },
+          {
+            "url": "https://www.apple.com/newsroom/2007/06/28iPhone-Premieres-This-Friday-Night-at-Apple-Retail-Stores/",
+            "title": "iPhone Premieres This Friday Night at Apple Retail Stores",
+            "date": "2007-06-28",
+            "snippet": "Apple's revolutionary iPhone will go on sale this Friday, June 29 at 6:00 p.m. local time at Apple retail stores nationwide."
+          }
+        ],
+        "resolvedOn": "2007-06-29",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Steve Jobs",
+      "personSlug": "steve-jobs",
+      "quote": "we're gonna go for it and see if we can get 1 percent market share, 10 million units in 2008, and go from there.",
+      "quoteVerified": true,
+      "claim": "Apple will sell about 10 million iPhones in calendar 2008, roughly 1% of the global mobile phone market.",
+      "type": "prediction",
+      "topic": "iphone-market-share",
+      "saidDate": "2007-01-09",
+      "targetDate": "2008-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Apple sells at least 10 million iPhones during calendar year 2008.",
+      "hedge": "see if we can",
+      "impliedProbability": 0.55,
+      "specificity": 5,
+      "source": {
+        "title": "Macworld San Francisco 2007 keynote (transcript via European Rhetoric)",
+        "url": "http://www.european-rhetoric.com/analyses/ikeynote-analysis-iphone/transcript-2007/",
+        "date": "2007-01-09",
+        "kind": "keynote"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.95,
+        "rationale": "Apple reported in October 2008 that it had already passed 10 million iPhones sold in calendar 2008, after selling 6.9 million in the July-September quarter alone.",
+        "evidence": [
+          {
+            "url": "https://www.macrumors.com/2008/10/21/apple-reaches-10-million-iphone-sales-goal-for-2008/",
+            "title": "Apple Reaches 10 Million iPhone Sales Goal for 2008",
+            "date": "2008-10-21",
+            "snippet": "Apple has revealed that the company has met its self-imposed goal of selling 10 million iPhones in calendar 2008."
+          },
+          {
+            "url": "https://appleinsider.com/articles/08/10/21/notes_of_interest_for_apples_q4_2008_results_call",
+            "title": "Notes of interest for Apple's Q4 2008 conference call",
+            "date": "2008-10-21",
+            "snippet": "Apple has already surpassed its goal of selling 10 million iPhones in calendar 2008."
+          },
+          {
+            "url": "https://www.macworld.com/article/194150/iphone_2008.html",
+            "title": "2008 in review: The iPhone comes of age",
+            "date": "2008-12-29",
+            "snippet": "All that expansion helped catapult the iPhone to its goal of 10 million, which Apple reached towards the end of October."
+          }
+        ],
+        "resolvedOn": "2008-10-21",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Steve Ballmer",
+      "personSlug": "steve-ballmer",
+      "quote": "There's no chance that the iPhone is going to get any significant market share. No chance. It's a $500 subsidized item. They may make a lot of money. But if you actually take a look at the 1.3 billion phones that get sold, I'd prefer to have our software in 60% or 70% or 80% of them, than I would to have 2% or 3%, which is what Apple might get.",
+      "quoteVerified": true,
+      "claim": "The iPhone will not gain any significant share of the mobile phone market; Apple might reach only about 2-3% of the roughly 1.3 billion phones sold each year.",
+      "type": "prediction",
+      "topic": "iphone-market-share",
+      "saidDate": "2007-04-29",
+      "targetDate": "2012-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "Through its first five full years on sale, the iPhone stays at or below about 2-3% of global mobile phone unit sales and holds no significant share of the smartphone market.",
+      "hedge": "no chance",
+      "impliedProbability": 0.9,
+      "specificity": 3,
+      "source": {
+        "title": "USA Today CEO Forum interview with Steve Ballmer (David Lieberman)",
+        "url": "http://usatoday30.usatoday.com/money/companies/management/2007-04-29-ballmer-ceo-forum-usat_N.htm",
+        "date": "2007-04-29",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "Gartner data show Apple sold about 130 million iPhones in 2012, 7.5% of all mobile phones and 19.1% of smartphones, well above the 2-3% Ballmer described.",
+        "evidence": [
+          {
+            "url": "https://www.gartner.com/en/newsroom/press-releases/2014-02-13-gartner-says-annual-smartphone-sales-surpassed-sales-of-feature-phones-for-the-first-time-in-2013",
+            "title": "Gartner Says Annual Smartphone Sales Surpassed Sales of Feature Phones for the First Time in 2013",
+            "date": "2014-02-13",
+            "snippet": "Table data: Apple 2012 worldwide mobile phone sales to end users 130,133.2 thousand units, 7.5% market share; Apple 2012 smartphone market share 19.1%."
+          },
+          {
+            "url": "https://www.gartner.com/en/newsroom/press-releases/2015-03-03-gartner-says-smartphone-sales-surpassed-one-billion-units-in-2014",
+            "title": "Gartner Says Smartphone Sales Surpassed One Billion Units in 2014",
+            "date": "2015-03-03",
+            "snippet": "Apple reported its best quarter ever in the fourth quarter of 2014, which saw it sell 74.8 million units and move to the No. 1 position in the global smartphone market."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Steve Jobs",
+      "personSlug": "steve-jobs",
+      "quote": "New open standards created in the mobile era, such as HTML5, will win on mobile devices (and PCs too).",
+      "quoteVerified": true,
+      "claim": "Open web standards such as HTML5, rather than Adobe Flash, will prevail on mobile devices and on PCs.",
+      "type": "prediction",
+      "topic": "flash-vs-html5",
+      "saidDate": "2010-04-29",
+      "targetDate": "2020-04-29",
+      "targetDateInferred": true,
+      "resolutionCriteria": "Flash is abandoned as the main platform for rich web content on mobile browsers and on desktop browsers, replaced by HTML5 and related open standards.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 2,
+      "source": {
+        "title": "Thoughts on Flash (open letter on apple.com, archived copy)",
+        "url": "https://web.archive.org/web/20100501010616/http://www.apple.com/hotnews/thoughts-on-flash/",
+        "date": "2010-04-29",
+        "kind": "blog"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.95,
+        "rationale": "Adobe stopped developing mobile-browser Flash in November 2011, YouTube made HTML5 its default desktop player in January 2015, and in July 2017 Adobe announced Flash's end of life, citing matured open standards such as HTML5.",
+        "evidence": [
+          {
+            "url": "https://www.macrumors.com/2011/11/09/adobe-discontinues-development-on-mobile-flash/",
+            "title": "Adobe Discontinues Development of Flash Player on Mobile Devices",
+            "date": "2011-11-08",
+            "snippet": "Our future work with Flash on mobile devices will be focused on enabling Flash developers to package native apps with Adobe AIR for all the major app stores."
+          },
+          {
+            "url": "https://techcrunch.com/2015/01/27/youtube-goes-html5-flash-is-now-deader/",
+            "title": "YouTube Now Streams HTML5 Video By Default",
+            "date": "2015-01-27",
+            "snippet": "Starting today, YouTube defaults to using HTML5 video on all modern browsers, including Chrome, IE 11, Safari 8 and the beta versions of Firefox."
+          },
+          {
+            "url": "https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update",
+            "title": "Flash & the Future of Interactive Content",
+            "date": "2017-07-25",
+            "snippet": "We will stop updating and distributing the Flash Player at the end of 2020"
+          }
+        ],
+        "resolvedOn": "2017-07-25",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Bill Gates",
+      "personSlug": "bill-gates",
+      "quote": "If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war.",
+      "quoteVerified": true,
+      "claim": "If any single catastrophe kills more than 10 million people in the next few decades, it will most likely be a highly infectious virus rather than a war.",
+      "type": "prediction",
+      "topic": "pandemic-risk",
+      "saidDate": "2015-03-18",
+      "targetDate": "2045-03-18",
+      "targetDateInferred": true,
+      "resolutionCriteria": "An event killing more than 10 million people occurs within a few decades of 2015, and it is a viral epidemic rather than a war.",
+      "hedge": "most likely",
+      "impliedProbability": 0.7,
+      "specificity": 2,
+      "source": {
+        "title": "The next outbreak? We're not ready (TED2015)",
+        "url": "https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready/transcript",
+        "date": "2015-03-18",
+        "kind": "keynote"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.85,
+        "rationale": "The WHO estimated about 14.9 million excess deaths associated with the COVID-19 pandemic, a viral outbreak, in 2020 and 2021 alone, and no war since 2015 has come close to that toll. The 10 million threshold is met on excess-mortality estimates rather than on officially reported COVID-19 deaths.",
+        "evidence": [
+          {
+            "url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+            "title": "14.9 million excess deaths were associated with the COVID-19 pandemic in 2020 and 2021",
+            "date": "2022-05-05",
+            "snippet": "the full death toll associated directly or indirectly with the COVID-19 pandemic (described as \"excess mortality\") between 1 January 2020 and 31 December 2021 was approximately 14.9 million (range 13.3 million to 16.6 million)."
+          },
+          {
+            "url": "https://www.eurekalert.org/news-releases/945949",
+            "title": "THE LANCET: Global death toll of COVID-19 pandemic may be more than three times higher than official records, estimates of excess deaths indicate",
+            "date": "2022-03-10",
+            "snippet": "the new study estimates 18.2 million excess deaths occurred over the same period"
+          }
+        ],
+        "resolvedOn": "2022-05-05",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "John Zimmer",
+      "personSlug": "john-zimmer",
+      "quote": "Autonomous vehicle fleets will quickly become widespread and will account for the majority of Lyft rides within 5 years.",
+      "quoteVerified": true,
+      "claim": "Autonomous vehicles will provide the majority of Lyft rides by September 2021.",
+      "type": "prediction",
+      "topic": "lyft-autonomous-rides",
+      "saidDate": "2016-09-18",
+      "targetDate": "2021-09-18",
+      "targetDateInferred": false,
+      "resolutionCriteria": "More than half of all Lyft rides are given in autonomous vehicles by September 18, 2021.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "The Third Transportation Revolution (John Zimmer on Medium)",
+        "url": "https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91",
+        "date": "2016-09-18",
+        "kind": "blog"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.98,
+        "rationale": "Lyft sold its in-house self-driving unit to Toyota's Woven Planet in April 2021, and in November 2021 Lyft and Motional said their Las Vegas robotaxi fleet had given over 100,000 public rides in total, with a fully driverless commercial launch planned for 2023. Autonomous rides remained a tiny fraction of Lyft's volume at the deadline.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2021/04/26/lyft-sells-self-driving-unit-to-toyotas-woven-planet-for-550m",
+            "title": "Lyft sells self-driving unit to Toyota's Woven Planet for $550M",
+            "date": "2021-04-26",
+            "snippet": "Lyft has sold off its autonomous vehicle unit to Toyota's Woven Planet Holdings subsidiary for $550 million"
+          },
+          {
+            "url": "https://www.lyft.com/blog/posts/motional-and-lyft-to-launch-fully-driverless-ride-hail-service-in-las-vegas",
+            "title": "Motional and Lyft to Launch Fully Driverless Ride-hail Service in Las Vegas in 2023",
+            "date": "2021-11-09",
+            "snippet": "Motional and Lyft to begin transporting public passengers in the IONIQ 5 robotaxis starting in 2022 and will scale to a full-fledged commercial launch in 2023"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "John Zimmer",
+      "personSlug": "john-zimmer",
+      "quote": "By 2025, private car ownership will all-but end in major U.S. cities.",
+      "quoteVerified": true,
+      "claim": "Private car ownership will all but end in major U.S. cities by 2025.",
+      "type": "prediction",
+      "topic": "car-ownership",
+      "saidDate": "2016-09-18",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By the end of 2025, only a small minority of households in major U.S. cities own a private car.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 3,
+      "source": {
+        "title": "The Third Transportation Revolution (John Zimmer on Medium)",
+        "url": "https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91",
+        "date": "2016-09-18",
+        "kind": "blog"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "Census data for 2023 show 8% of U.S. households without a vehicle and 36% in Washington, D.C., among the highest shares in the country; the U.S. light-vehicle fleet grew to 289 million in 2025, and 2025 new-vehicle sales of about 16.3 million were the highest since 2019.",
+        "evidence": [
+          {
+            "url": "https://www.pewresearch.org/short-reads/2024/11/14/1-in-10-americans-rarely-or-never-drive-a-car/",
+            "title": "1 in 10 Americans rarely or never drive a car",
+            "date": "2024-11-14",
+            "snippet": "D.C. (36%), New York state (30%), Massachusetts (12%) and New Jersey (11%) are among the places with the highest shares of households with no vehicle available."
+          },
+          {
+            "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025,-According-to-S-P-Global-Mobility",
+            "title": "U.S. Vehicle Age Rises Again to 12.8 Years in 2025, According to S&P Global Mobility",
+            "date": "2025-05-21",
+            "snippet": "vehicles in operation grew to 289 million with a steady 4.5% scrappage rate."
+          },
+          {
+            "url": "https://www.coxautoinc.com/insights/cox-automotive-forecast-dec-2025-u-s-auto-sales-forecast/",
+            "title": "Cox Automotive Forecast: Despite Q4 Slowdown, New-Vehicle Sales Forecast to Reach 16.3 Million in 2025",
+            "date": "2025-12-17",
+            "snippet": "Despite Q4 Slowdown, New-Vehicle Sales Forecast to Reach 16.3 Million in 2025, up Nearly 2% from 2024; Best Result Since 2019"
+          },
+          {
+            "url": "https://www.carpro.com/blog/full-year-2025-u.s.-auto-sales-report",
+            "title": "Full-Year 2025 U.S. Auto Sales Report",
+            "date": "2026-01-07",
+            "snippet": "rose 2.3 percent to 16.3 million units in 2025"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Bill Gates",
+      "personSlug": "bill-gates",
+      "quote": "Within the next two or three years, I predict most virtual meetings will move from 2D camera image grids—which I call the Hollywood Squares model, although I know that probably dates me—to the metaverse, a 3D space with digital avatars.",
+      "quoteVerified": true,
+      "claim": "Within two to three years, most virtual meetings will move from 2D video grids to 3D metaverse spaces with digital avatars.",
+      "type": "prediction",
+      "topic": "metaverse-meetings",
+      "saidDate": "2021-12-07",
+      "targetDate": "2024-12-07",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By December 2024, a majority of virtual meetings take place in 3D virtual spaces with avatars rather than in 2D video calls.",
+      "hedge": "I predict",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Reasons for optimism after a difficult year (Gates Notes)",
+        "url": "https://www.gatesnotes.com/Year-in-Review-2021",
+        "date": "2021-12-07",
+        "kind": "blog"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "Virtual meetings stayed overwhelmingly on 2D video platforms; Microsoft retired its Mesh 3D collaboration platform in late 2025 and Meta discontinued its Horizon Workrooms VR meeting app in February 2026.",
+        "evidence": [
+          {
+            "url": "https://www.computerworld.com/article/4100319/microsoft-retires-mesh-app-launches-immersive-spaces-for-teams.html",
+            "title": "Microsoft retires Mesh app, launches 'immersive spaces' for Teams",
+            "date": "2025-12-03",
+            "snippet": "Use cases tend to be very targeted around training, product demonstrations, engineering and design, and customer engagement rather than for general purpose meetings."
+          },
+          {
+            "url": "https://roadtovr.com/meta-horizon-workrooms-discontinued-2026/",
+            "title": "Meta is Deleting 'Horizon Workrooms' Next Month as Metaverse Ambitions Cool",
+            "date": "2026-01-16",
+            "snippet": "Meta has made the decision to discontinue Workrooms as a standalone app, effective February 16, 2026."
+          },
+          {
+            "url": "https://www.theregister.com/2026/01/16/meta_quest_horizon_workrooms/",
+            "title": "Meta retreats from metaverse after virtual reality check",
+            "date": "2026-01-16",
+            "snippet": "Horizon Workrooms, a virtual reality conferencing system, was introduced in 2021 and failed to set the world alight."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Marc Benioff",
+      "personSlug": "marc-benioff",
+      "quote": "We're not adding any more software engineers next year because we have increased the productivity this year with Agentforce and with other AI technology that we're using for engineering teams by more than 30%",
+      "quoteVerified": true,
+      "claim": "Salesforce will not add any software engineers in 2025 because AI tools have raised engineering productivity by more than 30%.",
+      "type": "prediction",
+      "topic": "ai-engineering-hiring",
+      "saidDate": "2024-12-09",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Salesforce's software engineering headcount does not grow during 2025.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "20VC with Harry Stebbings: Marc Benioff (quoted by Salesforce Ben)",
+        "url": "https://www.salesforceben.com/salesforce-will-hire-no-more-software-engineers-in-2025-says-marc-benioff/",
+        "date": "2024-12-09",
+        "kind": "podcast"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.65,
+        "rationale": "Benioff later said Salesforce held its roughly 15,000-person engineering headcount mostly flat through 2025, which matches the claim. The evidence comes from company statements rather than independent headcount data, and 'mostly flat' does not rule out a small number of hires.",
+        "evidence": [
+          {
+            "url": "https://www.itpro.com/business/business-strategy/marc-benioff-salesforce-software-engineering-hiring-flat-ai",
+            "title": "'They're more productive than ever': Marc Benioff says hiring in software engineering is 'mostly flat' at Salesforce because of AI",
+            "date": "2026-01-15",
+            "snippet": "I've held my engineering headcount mostly flat this year because I've gotten so much productivity increase."
+          },
+          {
+            "url": "https://fortune.com/2026/05/28/ai-slashes-white-collar-jobs-salesforce-ceo-marc-benioff-one-department-still-hiring-sales/",
+            "title": "As AI slashes white-collar jobs, Salesforce CEO Marc Benioff says almost no one is being hired—except in sales",
+            "date": "2026-05-28",
+            "snippet": "For the last couple years we have not been loading up a lot more engineers"
+          }
+        ],
+        "resolvedOn": "2025-12-31",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    }
+  ]
+}

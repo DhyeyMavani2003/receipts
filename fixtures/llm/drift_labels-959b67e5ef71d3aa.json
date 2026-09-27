@@ -1,0 +1,21 @@
+{
+  "request": {
+    "schemaName": "drift_labels",
+    "variant": null,
+    "system_sha": "2b6023cca8479211",
+    "user_excerpt": "Speaker: Jensen Huang\nTopic: agi-timeline\nLabel every claim after #1 (1 transitions).\n\n#1\nclaimId: 29fbb2aa178a\nsaid: 2024-03-01 (Stanford SIEPR Economic Summit (quoted by Fox Business))\ndeadline: 202"
+  },
+  "response": {
+    "data": {
+      "transitions": [
+        {
+          "claimId": "837e87c1c364",
+          "label": "escalated",
+          "note": "Moved from predicting that AI would pass every human test within five years to saying that AGI has already arrived."
+        }
+      ]
+    },
+    "citations": [],
+    "model": "human:seed-drift"
+  }
+}

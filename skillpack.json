@@ -1,0 +1,33 @@
+{
+  "api_version": "gbrain-skillpack-v1",
+  "name": "receipts",
+  "version": "1.0.0",
+  "description": "Receipts: turn podcasts, interviews and posts into dated, verbatim-quoted bets on each public figure's person page, grade them when they come due, track how the story drifts, and answer \"how much should I trust X on Y?\"",
+  "author": "Dhyey Mavani",
+  "license": "MIT",
+  "homepage": "https://github.com/DhyeyMavani2003/receipts",
+  "gbrain_min_version": "0.59.0",
+  "runbook_schema_version": 1,
+  "eval_schema_version": 1,
+  "skills": [
+    "skills/receipts-ingest",
+    "skills/receipts-grade",
+    "skills/receipts-drift",
+    "skills/receipts-ask"
+  ],
+  "runbooks": {
+    "bootstrap": "runbooks/bootstrap.md"
+  },
+  "unit_tests": [
+    "test/**/*.test.ts"
+  ],
+  "e2e_tests": [
+    "e2e/**/*.test.ts"
+  ],
+  "llm_evals": [
+    "evals/*.judge.json"
+  ],
+  "routing_evals": [
+    "skills/*/routing-eval.jsonl"
+  ]
+}

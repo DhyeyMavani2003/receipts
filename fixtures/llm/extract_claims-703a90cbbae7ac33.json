@@ -1,0 +1,192 @@
+{
+  "request": {
+    "schemaName": "extract_claims",
+    "variant": null,
+    "system_sha": "40470d54e7f1941f",
+    "user_excerpt": "Speaker: Elon Musk\nHost (never attribute their words to the speaker): David Faber\nSource: \"CNBC interview with David Faber at Giga Texas, Part 1\" (podcast) https://www.youtube.com/watch?v=6hz9Bqnfi-I\n"
+  },
+  "response": {
+    "data": {
+      "claims": [
+        {
+          "quote": "we have cars driving uh 24/7 with drivers\nuh in the cars um and we see essentially\nno interventions.",
+          "claim": "Tesla has cars driving 24/7 with drivers in the cars and is seeing essentially no interventions.",
+          "type": "factual",
+          "topic": "tesla-fsd-testing",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla test data, regulatory filings, or credible reporting confirm that Tesla was running cars 24/7 with drivers in the cars and seeing essentially no interventions as of May 20, 2025.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "we have uh\nthousands of cars that are being tested.",
+          "claim": "Tesla has thousands of cars being tested for self-driving.",
+          "type": "factual",
+          "topic": "tesla-fsd-testing",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla disclosures, regulatory filings, or credible reporting confirm that Tesla had thousands of cars being tested for self-driving as of May 20, 2025.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "It's looking good for Austin next month.",
+          "claim": "Tesla's Austin robotaxi launch will be ready in June 2025.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": "2025-06-30",
+          "targetDateInferred": true,
+          "resolutionCriteria": "Tesla launches or credible news coverage confirms an Austin robotaxi or unsupervised self-driving service operating in June 2025.",
+          "hedge": "looking good",
+          "specificity": 4
+        },
+        {
+          "quote": "we we'll start with\nprobably 10 for for a week then increase\nit to 20 30 40 and I think by\nsay you know we'll probably be at a\nthousand within a few months um and and\nwe'll expand to other cities.",
+          "claim": "Tesla will start its robotaxi deployment with about 10 cars for the first week.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla reports or credible news coverage of the initial robotaxi deployment show that Tesla started with about 10 cars for the first week.",
+          "hedge": "probably",
+          "specificity": 4
+        },
+        {
+          "quote": "we we'll start with\nprobably 10 for for a week then increase\nit to 20 30 40 and I think by\nsay you know we'll probably be at a\nthousand within a few months um and and\nwe'll expand to other cities.",
+          "claim": "Tesla will have about 1,000 robotaxis within a few months of May 20, 2025.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": "2025-08-20",
+          "targetDateInferred": true,
+          "resolutionCriteria": "Tesla reports or credible news coverage show that Tesla had about 1,000 robotaxis operating by August 20, 2025.",
+          "hedge": "I think",
+          "specificity": 5
+        },
+        {
+          "quote": "it's going to be important to have a unified set of\nnational regulations for uh self-driving\ncars.",
+          "claim": "Elon Musk supports having a unified set of national regulations for self-driving cars.",
+          "type": "stance",
+          "topic": "autonomous-driving-regulation",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Elon Musk continues to state support for unified national self-driving car regulations or acts consistently with that position.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "my my\nprediction is that probably by the end\nof next year, uh, we'll have, uh,\nprobably hundreds of thousands, if not\nhundreds of thousands, if not if not\nover a million Teslas doing self-driving\nin the US.",
+          "claim": "Hundreds of thousands, and possibly more than one million, Teslas will be doing self-driving in the United States by the end of 2026.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": "2026-12-31",
+          "targetDateInferred": true,
+          "resolutionCriteria": "Tesla reports, regulatory data, or credible news coverage show that at least hundreds of thousands of Teslas were doing self-driving in the United States by December 31, 2026.",
+          "hedge": "probably",
+          "specificity": 5
+        },
+        {
+          "quote": "Even a Tesla that you buy right now and\nand the self-driving just cost $99 a\nmonth uh will give you autonomous\ndriving anywhere in the country right\nnow.",
+          "claim": "Tesla's self-driving subscription costs $99 per month as of May 20, 2025.",
+          "type": "factual",
+          "topic": "tesla-fsd-price",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla pricing pages, app records, or credible reporting confirm that Tesla's self-driving subscription cost $99 per month on May 20, 2025.",
+          "hedge": "",
+          "specificity": 5
+        },
+        {
+          "quote": "what will actually work\nbest for the road system is artificial\nintelligence, digital neural nets and\ncameras.",
+          "claim": "Elon Musk believes artificial intelligence, digital neural nets, and cameras are the best approach for self-driving on the road system.",
+          "type": "stance",
+          "topic": "tesla-fsd-architecture",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Elon Musk continues to advocate an AI, digital neural net, and camera-based approach as the best approach for self-driving on roads.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "we we also have the microphones so\nthe car can hear emergency vehicles and\nthat kind of thing.",
+          "claim": "Tesla cars have microphones so the car can hear emergency vehicles and similar sounds.",
+          "type": "factual",
+          "topic": "tesla-fsd-sensors",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla technical documentation, vehicle teardown evidence, or credible reporting confirm that Tesla cars have microphones used to hear emergency vehicles and similar sounds.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "In\nfact, we turned off the radars in the\ncars.",
+          "claim": "Tesla turned off the radars in its cars.",
+          "type": "factual",
+          "topic": "tesla-fsd-sensors",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla documentation, software release notes, regulatory filings, or credible reporting confirm that Tesla disabled radar use in its cars.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "there are a\nnumber of major automakers that have\ntalked to us about licensing\nself-driving and um we're very much open\nto that.",
+          "claim": "A number of major automakers have talked to Tesla about licensing Tesla self-driving technology.",
+          "type": "factual",
+          "topic": "tesla-fsd-licensing",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla disclosures, automaker statements, or credible reporting confirm that multiple major automakers had talked to Tesla about licensing Tesla self-driving technology by May 20, 2025.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "there are a\nnumber of major automakers that have\ntalked to us about licensing\nself-driving and um we're very much open\nto that.",
+          "claim": "Tesla is very much open to licensing its self-driving technology to major automakers.",
+          "type": "stance",
+          "topic": "tesla-fsd-licensing",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla or Elon Musk continues to state openness to licensing Tesla self-driving technology or takes actions consistent with offering such licenses.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "for uh when we deploy the cars\nin in in Austin, uh we are actually\ngoing to deploy it not to the entire\nAustin region, but only to uh the parts\nof Austin that we consider to be uh the\nsafest. So we will geopence it.",
+          "claim": "Tesla will geofence its Austin robotaxi deployment to only the parts of Austin Tesla considers safest.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla deployment details, app availability, regulatory filings, or credible reporting show that Tesla's Austin robotaxi service was geofenced to selected parts of Austin considered safest by Tesla.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "it's it's not going to take, uh,\nintersections unless we are highly\nconfident it'll it's going to do well\nwith that intersection. It'll just it'll\njust take a route around that\nintersection",
+          "claim": "Tesla's Austin robotaxi deployment will avoid intersections unless Tesla is highly confident the cars will do well at those intersections.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla operational descriptions, app routing behavior, regulatory filings, or credible reporting show that Tesla's Austin robotaxi service routed around intersections where Tesla lacked high confidence.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "The car it won't there's not\ngoing to be somebody sitting there.\nRight.",
+          "claim": "Tesla's driverless cars in the Austin deployment will not have a person sitting in the car.",
+          "type": "prediction",
+          "topic": "tesla-robotaxi",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla launch details, rider reports, regulatory filings, or credible reporting show that Tesla's Austin driverless cars operated without a person sitting in the car.",
+          "hedge": "",
+          "specificity": 4
+        }
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

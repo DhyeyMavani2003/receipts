@@ -1,0 +1,23 @@
+{
+  "request": {
+    "schemaName": "ask_answer_v2",
+    "variant": null,
+    "system_sha": "871e2f53eaec112e",
+    "user_excerpt": "Question: Has Elon Musk's story on robotaxis changed?\nToday: 2026-09-27\nQuestion type: drift (how their story or view changed over time)\nTopics on record that match: autonomous-driving-regulation, lyf"
+  },
+  "response": {
+    "data": {
+      "answer": "Yes: Elon Musk’s robotaxi story changed from broad near-term autonomy and million-vehicle scale to later, delayed, narrower Austin deployments with limits and safety conditions. In 2016 he predicted a no-touch autonomous LA-to-New-York demo by the end of 2017; it did not happen. In 2019 he said Tesla would have “over a million robotaxis” by the end of 2020; that did not happen. In January 2025 he narrowed the near-term claim to a paid Austin launch in June with “no one in the car”; that did not happen by the deadline because the June service had safety monitors. By May 2025, the Austin plan had softened into a geofenced deployment, avoidance of harder intersections, and a start of “probably 10” cars. His overall score here is weak: 4 correct of 13 resolved predictions, with a Brier score of 0.41, where lower is better and 0.25 is a coin flip.",
+      "cited_claim_ids": [
+        "9ea0a7398c8b",
+        "319888cf53d5",
+        "0e10abd65b43",
+        "21d721262810",
+        "66aa4c34408b",
+        "916732baecc8"
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

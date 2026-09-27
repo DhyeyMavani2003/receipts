@@ -1,0 +1,36 @@
+{
+  "request": {
+    "schemaName": "drift_labels",
+    "variant": null,
+    "system_sha": "2b6023cca8479211",
+    "user_excerpt": "Speaker: Elon Musk\nTopic: tesla-robotaxi\nLabel every claim after #1 (4 transitions).\n\n#1\nclaimId: 9ea0a7398c8b\nsaid: 2016-10-19 (Tesla Autopilot 2.0 press call (reported by TechCrunch))\ndeadline: 2017"
+  },
+  "response": {
+    "data": {
+      "transitions": [
+        {
+          "claimId": "319888cf53d5",
+          "label": "pushed_later",
+          "note": "The self-driving milestone moved from a coast-to-coast drive in 2017 to a million robotaxis by the end of 2020."
+        },
+        {
+          "claimId": "0e10abd65b43",
+          "label": "pushed_later",
+          "note": "The target moved from a million robotaxis by 2020 to a paid unsupervised service in Austin in June 2025."
+        },
+        {
+          "claimId": "e0977fae1132",
+          "label": "reaffirmed",
+          "note": "A June 2025 milestone again: a car driving itself from the factory to a customer on June 28."
+        },
+        {
+          "claimId": "59ebc949b6f1",
+          "label": "escalated",
+          "note": "Moved from one car driving itself to a customer (a milestone that was met) to ride-hailing for about half the US population by the end of 2025."
+        }
+      ]
+    },
+    "citations": [],
+    "model": "human:seed-drift"
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "claims": [
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "The basic game plan is we're going to send a mission to Mars with every Mars opportunity from 2018 onwards.",
+      "quoteVerified": true,
+      "claim": "SpaceX will send a mission to Mars in every Earth-Mars launch opportunity starting with the 2018 window.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2016-06-01",
+      "targetDate": "2018-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "A SpaceX spacecraft launches toward Mars during the 2018 Earth-Mars launch window.",
+      "hedge": "The basic game plan is",
+      "impliedProbability": 0.75,
+      "specificity": 4,
+      "source": {
+        "title": "Code Conference 2016 interview (reported by Spaceflight Now)",
+        "url": "https://spaceflightnow.com/2016/06/02/elon-musk-hopes-spacex-will-send-humans-to-mars-in-2024/",
+        "date": "2016-06-01",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "SpaceX did not launch a mission to Mars in 2018; the planned Red Dragon flight slipped to 2020 and was effectively shelved after SpaceX dropped propulsive Dragon landings in July 2017. No SpaceX vehicle has launched to Mars as of September 2026.",
+        "evidence": [
+          {
+            "url": "https://spaceflightnow.com/2017/07/19/propulsive-landings-nixed-from-spacexs-dragon-spaceship/",
+            "title": "Propulsive landings nixed from SpaceX's Dragon spaceship",
+            "date": "2017-07-19",
+            "snippet": "Gwynne Shotwell, SpaceX's president and chief operating officer, said in February that the first Red Dragon flight was delayed to mid-2020 from 2018"
+          },
+          {
+            "url": "https://spacenews.com/spacex-drops-plans-for-powered-dragon-landings/",
+            "title": "SpaceX drops plans for powered Dragon landings",
+            "date": "2017-07-19",
+            "snippet": "SpaceX announced plans for Red Dragon last year for launch in 2018, but SpaceX President Gwynne Shotwell said in February that the launch had slipped to 2020"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "Our goal is, and I feel pretty good about this goal, that we'll be able to do a demonstration drive of full autonomy all the way from LA to New York, from home in LA to let's say dropping you off in Time Square in New York, and then having the car go park itself, by the end of next year. Without the need for a single touch, including the charger.",
+      "quoteVerified": true,
+      "claim": "A Tesla will complete a fully autonomous demonstration drive from Los Angeles to New York, with no human touch, by the end of 2017.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2016-10-19",
+      "targetDate": "2017-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Tesla completes and shows a coast-to-coast LA-to-New York drive with no human intervention (including charging) by December 31, 2017.",
+      "hedge": "Our goal is",
+      "impliedProbability": 0.55,
+      "specificity": 5,
+      "source": {
+        "title": "Tesla Autopilot 2.0 press call (reported by TechCrunch)",
+        "url": "https://techcrunch.com/2016/10/19/musk-targeting-coast-to-coast-test-drive-of-fully-self-driving-tesla-by-late-2017/",
+        "date": "2016-10-19",
+        "kind": "other"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "No fully autonomous coast-to-coast demonstration drive took place in 2017; in February 2018 Musk said the drive was still three to six months away, and it was never carried out as described.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2018/02/07/elon-musk-expects-to-do-coast-to-coast-autonomous-tesla-drive-in-3-to-6-months/",
+            "title": "Elon Musk expects to do coast-to-coast autonomous Tesla drive in 3 to 6 months",
+            "date": "2018-02-07",
+            "snippet": "Tesla had aimed to do a cross-country U.S. drive in one of its vehicles using fully autonomous driving capabilities by the end of last year. Obviously it didn't make that goal"
+          },
+          {
+            "url": "https://techcrunch.com/2021/05/07/tesla-refutes-elon-musks-timeline-on-full-self-driving/",
+            "title": "Tesla refutes Elon Musk's timeline on 'full self-driving'",
+            "date": "2021-05-07",
+            "snippet": "Tesla is at Level 2 currently."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "I feel fairly confident that we can complete the ship and be ready for a launch in about five years.",
+      "quoteVerified": true,
+      "claim": "SpaceX will complete its first Mars ship and have it ready for launch in about five years, by the end of 2022.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2017-09-29",
+      "targetDate": "2022-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "A completed SpaceX Mars ship (the BFR, later Starship) is ready to launch by December 31, 2022.",
+      "hedge": "fairly confident",
+      "impliedProbability": 0.75,
+      "specificity": 4,
+      "source": {
+        "title": "Making Life Multiplanetary, IAC 2017 Adelaide (reported by CBC News)",
+        "url": "https://www.cbc.ca/news/science/spacex-mars-rocket-elon-musk-1.4312878",
+        "date": "2017-09-29",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "No SpaceX ship was ready to launch to Mars by the end of 2022; the fully stacked Starship first flew on April 20, 2023, on a test flight that ended in an explosion.",
+        "evidence": [
+          {
+            "url": "https://www.space.com/spacex-starship-first-space-launch",
+            "title": "SpaceX's 1st Starship launches on epic test flight, explodes in 'rapid unscheduled disassembly'",
+            "date": "2023-04-20",
+            "snippet": "A fully stacked Starship left the ground today (April 20) for the first time ever — and it came to an explosive end high in the Texas sky."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "production begins 2019. So if you order now, get the ... truck in two years.",
+      "quoteVerified": true,
+      "claim": "Tesla Semi production will begin in 2019.",
+      "type": "prediction",
+      "topic": "tesla-semi",
+      "saidDate": "2017-11-16",
+      "targetDate": "2019-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Tesla begins series production of the Semi (trucks built for customers) by December 31, 2019.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Tesla Semi & Roadster Unveil",
+        "url": "https://www.youtube.com/watch?v=5RRmepp7i5g&t=1486s",
+        "date": "2017-11-16",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "Semi production did not begin in 2019; Musk announced the start of low-volume production in October 2022, with first deliveries to PepsiCo on December 1, 2022, and high-volume production began in 2026.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2022/10/06/tesla-semi-production-begins-with-pepsi-getting-the-first-deliveries",
+            "title": "Tesla Semi production begins with Pepsi getting the first deliveries",
+            "date": "2022-10-06",
+            "snippet": "Excited to announce start of production of Tesla Semi Truck with deliveries to @Pepsi on Dec 1st!"
+          },
+          {
+            "url": "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
+            "title": "Tesla finally moves to electrify trucking after a decade of work and delays",
+            "date": "2026-09-25",
+            "snippet": "Originally slated to go into production in 2019, the Semi was delayed for multiple reasons."
+          }
+        ],
+        "resolvedOn": "2022-10-06",
+        "latenessMonths": 33,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "From our standpoint, if you fast forward a year, maybe a year and three months, but next year for sure, we'll have over a million robotaxis on the road",
+      "quoteVerified": true,
+      "claim": "Tesla will have more than one million robotaxis operating on the road by the end of 2020.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2019-04-22",
+      "targetDate": "2020-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "More than one million Tesla vehicles are operating as driverless robotaxis on public roads by December 31, 2020.",
+      "hedge": "for sure",
+      "impliedProbability": 0.95,
+      "specificity": 5,
+      "source": {
+        "title": "Tesla Autonomy Day (reported by TechCrunch)",
+        "url": "https://techcrunch.com/2019/04/22/tesla-plans-to-launch-a-robotaxi-network-in-2020/",
+        "date": "2019-04-22",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "No Tesla robotaxis were operating in 2020; in 2021 Tesla told California regulators its system was still Level 2 driver assistance, and its first paid robotaxi service did not start until June 2025, with a safety monitor on board.",
+        "evidence": [
+          {
+            "url": "https://www.fastcompany.com/90677822/elon-musks-tesla-robotaxi-promise-typifies-self-driving-overexuberance",
+            "title": "Elon Musk's failed Tesla robotaxi promise is the height of self-driving hype",
+            "date": "2021-09-18",
+            "snippet": "So, a million operating Tesla robotaxis by the end of 2020 was just not going to happen."
+          },
+          {
+            "url": "https://techcrunch.com/2021/05/07/tesla-refutes-elon-musks-timeline-on-full-self-driving/",
+            "title": "Tesla refutes Elon Musk's timeline on 'full self-driving'",
+            "date": "2021-05-07",
+            "snippet": "Tesla is at Level 2 currently."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "If you define AGI (artificial general intelligence) as smarter than the smartest human, I think it's probably next year, within two years.",
+      "quoteVerified": true,
+      "claim": "AI smarter than the smartest human will exist within two years, probably by 2025.",
+      "type": "prediction",
+      "topic": "agi-timeline",
+      "saidDate": "2024-04-08",
+      "targetDate": "2026-04-08",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By April 8, 2026 (two years after he spoke, the latest date his words allow), an AI system is broadly recognized as more capable than the smartest human across intellectual domains.",
+      "hedge": "I think it's probably",
+      "impliedProbability": 0.7,
+      "specificity": 2,
+      "source": {
+        "title": "X Spaces interview with Nicolai Tangen (Reuters, via South China Morning Post)",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3258309/teslas-musk-predicts-ai-will-be-smarter-smartest-human-next-year",
+        "date": "2024-04-08",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.65,
+        "rationale": "There was no broad agreement by April 8, 2026 that any AI system was smarter than the smartest humans; MIT Technology Review's overview of April 13, 2026 described AI as showing 'jagged intelligence', strong in some areas and weak in others. Graded against Musk's own stated test, AI smarter than the smartest human, not a general AGI definition.",
+        "evidence": [
+          {
+            "url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+            "title": "Want to understand the current state of AI? Check out these charts.",
+            "date": "2026-04-13",
+            "snippet": "AI exhibits 'jagged intelligence.'"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "The first Starships to Mars will launch in 2 years when the next Earth-Mars transfer window opens. These will be uncrewed to test the reliability of landing intact on Mars.",
+      "quoteVerified": true,
+      "claim": "SpaceX will launch its first uncrewed Starships to Mars during the late-2026 Earth-Mars transfer window.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2024-09-07",
+      "targetDate": "2026-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "At least one uncrewed SpaceX Starship launches on a trajectory to Mars during the 2026 Earth-Mars transfer window.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/1832550322293837833",
+        "date": "2024-09-07",
+        "kind": "x"
+      },
+      "verdict": "pending",
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "So, we're going to be launching unsupervised full self-driving as a paid service in Austin in June. So, I talked to the team. We feel confident in being able to do an initial launch of unsupervised, no one in the car, full self-driving in Austin in June.",
+      "quoteVerified": true,
+      "claim": "Tesla will launch unsupervised Full Self-Driving, with no one in the car, as a paid ride service in Austin in June 2025.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2025-01-29",
+      "targetDate": "2025-06-30",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By June 30, 2025, Tesla operates a paid ride service in Austin using cars with no Tesla employee or safety driver on board.",
+      "hedge": "We feel confident",
+      "impliedProbability": 0.9,
+      "specificity": 5,
+      "source": {
+        "title": "Tesla Q4 2024 Earnings Call (Motley Fool transcript)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2025/01/29/tesla-tsla-q4-2024-earnings-call-transcript/",
+        "date": "2025-01-29",
+        "kind": "earnings_call"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.85,
+        "rationale": "Graded on Musk's own condition, 'unsupervised, no one in the car'. A paid, invite-only robotaxi service did launch in Austin on June 22, 2025, but every car carried a Tesla safety monitor in the front passenger seat, so the core 'unsupervised, no one in the car' condition was not met by the June 2025 deadline. Paid Austin rides with no one in the car began on January 22, 2026, in a few vehicles mixed into a fleet that still mostly had safety monitors.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2025/06/22/tesla-launches-robotaxi-rides-in-austin-with-big-promises-and-unanswered-questions",
+            "title": "Tesla launches robotaxi rides in Austin with big promises and unanswered questions",
+            "date": "2025-06-22",
+            "snippet": "a Tesla employee will be sitting in the right front passenger seat as a 'safety monitor.'"
+          },
+          {
+            "url": "https://electrek.co/2026/02/16/tesla-robotaxi-status-check-8-months-in/",
+            "title": "Tesla 'Robotaxi' status check: 8 months in, 19% availability, and all of Musk's promises are missing",
+            "date": "2026-02-16",
+            "snippet": "On the Q4 2024 earnings call, Musk declared that Teslas would be driving autonomously in Austin 'with no one in them' by June 2025."
+          },
+          {
+            "url": "https://techcrunch.com/2026/01/22/tesla-launches-robotaxi-rides-in-austin-with-no-human-safety-driver/",
+            "title": "Tesla launches robotaxi rides in Austin with no human safety driver",
+            "date": "2026-01-22",
+            "snippet": "starting with a few unsupervised vehicles mixed in with the broader robotaxi fleet with safety monitors, and the ratio will increase over time"
+          }
+        ],
+        "resolvedOn": "2026-01-22",
+        "latenessMonths": 7,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "Will we succeed in building 10,000 exactly by the end of December this year? Probably not, but will we succeed in making several thousand? Yes, I think we will.",
+      "quoteVerified": true,
+      "claim": "Tesla will build several thousand Optimus humanoid robots in 2025.",
+      "type": "prediction",
+      "topic": "optimus-production",
+      "saidDate": "2025-01-29",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Tesla builds at least several thousand (2,000 or more) Optimus robots during calendar year 2025.",
+      "hedge": "I think",
+      "impliedProbability": 0.65,
+      "specificity": 4,
+      "source": {
+        "title": "Tesla Q4 2024 Earnings Call (Motley Fool transcript)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2025/01/29/tesla-tsla-q4-2024-earnings-call-transcript/",
+        "date": "2025-01-29",
+        "kind": "earnings_call"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.9,
+        "rationale": "Supply-chain reports in mid-2025 said Optimus production was paused for a redesign, and on the January 2026 earnings call Musk said Optimus was still in the R&D phase with no significant production volume expected until the end of 2026.",
+        "evidence": [
+          {
+            "url": "https://www.tomshardware.com/maker-stem/robot-kits/elon-musks-optimus-boast-in-doubt-as-humanoid-robot-production-plans-halted-telsas-projections-for-10-000-robots-in-2025-cast-into-doubt-according-to-supply-chain-sources",
+            "title": "Elon Musk's Optimus boast in doubt as humanoid robot production plans halted",
+            "date": "2025-07-04",
+            "snippet": "it stopped parts procurement mid-month, with its engineers asking for approximately two months to recalibrate."
+          },
+          {
+            "url": "https://www.tipranks.com/news/tesla-tsla-delays-optimus-robot-amid-production-and-leadership-setbacks",
+            "title": "Tesla (TSLA) delays Optimus robot amid production and leadership setbacks",
+            "date": "2025-07-28",
+            "snippet": "The company had planned to build 5,000 units in 2025, but has only produced a few hundred."
+          },
+          {
+            "url": "https://electrek.co/2026/01/28/musk-admits-no-optimus-robots-are-doing-useful-work-at-tesla-after-claiming-otherwise/",
+            "title": "Musk admits no Optimus robots are doing 'useful work' at Tesla — after claiming otherwise",
+            "date": "2026-01-28",
+            "snippet": "We wouldn't expect to have any kind of significant Optimus production volume until probably the end of this year."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "First Tesla that drives itself from factory end of line all the way to a customer house is June 28.",
+      "quoteVerified": true,
+      "claim": "A new Tesla will drive itself with no one on board from the factory to a customer's home on June 28, 2025.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2025-06-11",
+      "targetDate": "2025-06-28",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By June 28, 2025, a new Tesla drives itself from the factory end of line to a customer's home with no one in the car.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 5,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/1932591896939147494",
+        "date": "2025-06-11",
+        "kind": "x"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.85,
+        "rationale": "Tesla said a Model Y drove itself from the factory to a customer's home across town, including highways, on June 27, 2025, one day early, with no one in the car. The delivery was shown in Tesla's own unedited video of the full drive; no independent observer confirmed it.",
+        "evidence": [
+          {
+            "url": "https://electrek.co/2025/06/27/elon-musk-claims-tesla-delivered-first-car-fully-autonomously-factory-customer/",
+            "title": "Elon Musk claims Tesla delivered its first car fully autonomously from factory to customer",
+            "date": "2025-06-27",
+            "snippet": "The first fully autonomous delivery of a Tesla Model Y from factory to a customer home across town, including highways, was just completed."
+          },
+          {
+            "url": "https://www.investing.com/news/stock-market-news/tesla-completes-first-fully-autonomous-model-y-delivery-ahead-of-schedule-4115118",
+            "title": "Tesla completes first fully autonomous Model Y delivery ahead of schedule (Reuters)",
+            "date": "2025-06-27",
+            "snippet": "the first fully autonomous delivery of Model Y from the factory to a customer's home across town was completed a day ahead of schedule"
+          }
+        ],
+        "resolvedOn": "2025-06-27",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "I think we will probably have autonomous ride-hailing in probably half the population of the US by the end of the year. That's at least our goal, subject to regulatory approvals.",
+      "quoteVerified": true,
+      "claim": "Tesla autonomous ride-hailing will be available to about half of the US population by the end of 2025.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2025-07-23",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By December 31, 2025, Tesla autonomous ride-hailing service areas cover metro areas holding roughly half of the US population.",
+      "hedge": "I think we will probably",
+      "impliedProbability": 0.7,
+      "specificity": 4,
+      "source": {
+        "title": "Tesla Q2 2025 Earnings Call (Motley Fool transcript)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/tesla-tsla-q2-2025-earnings-call-transcript/",
+        "date": "2025-07-23",
+        "kind": "earnings_call"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "At the end of 2025, Tesla's ride-hailing ran only in Austin and the San Francisco Bay Area, with safety monitors or drivers in the cars, far short of half the US population.",
+        "evidence": [
+          {
+            "url": "https://electrek.co/2025/12/22/tesla-robotaxi-project-austin-much-smaller-than-musk-claims/",
+            "title": "Tesla's Robotaxi project in Austin is much smaller than Musk claims",
+            "date": "2025-12-22",
+            "snippet": "the autonomous but supervised ride-hailing system in Austin consists of no more than a few vehicles (~5) operating at the same time."
+          },
+          {
+            "url": "https://electrek.co/2026/02/16/tesla-robotaxi-status-check-8-months-in/",
+            "title": "Tesla 'Robotaxi' status check: 8 months in, 19% availability, and all of Musk's promises are missing",
+            "date": "2026-02-16",
+            "snippet": "Tesla's 'Robotaxi' service shuts down when it rains in Austin."
+          },
+          {
+            "url": "https://insideevs.com/news/783157/musk-promises-2025-eoy-robotaxis/",
+            "title": "Tesla's Big Robotaxi Promises Fall Flat As 2025 Comes To A Close",
+            "date": "2025-12-31",
+            "snippet": "Musk has said that the service would expand to Dallas, Houston, Phoenix, Miami and Las Vegas. Combined, that vision represents about 15.25 million people, or around 4.5% of the U.S. population."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "Tesla Semi will be in volume production next year",
+      "quoteVerified": true,
+      "claim": "The Tesla Semi will be in volume production during 2026.",
+      "type": "prediction",
+      "topic": "tesla-semi",
+      "saidDate": "2025-08-11",
+      "targetDate": "2026-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "Tesla starts volume (high-rate series) production of the Semi by December 31, 2026.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 3,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/1954797066091217313",
+        "date": "2025-08-11",
+        "kind": "x"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.85,
+        "rationale": "The first Semi came off Tesla's high-volume line in Nevada in late April 2026, and Tesla formally launched high-volume production and customer deliveries at its dedicated Semi factory on September 24, 2026. Actual output rates are not yet independently reported.",
+        "evidence": [
+          {
+            "url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/",
+            "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
+            "date": "2026-09-25",
+            "snippet": "Tesla officially launched high-volume production of the Tesla Semi last night at its new dedicated factory in Nevada"
+          },
+          {
+            "url": "https://www.automotiveworld.com/news/long-awaited-tesla-semi-enters-volume-production-in-nevada/",
+            "title": "Long-awaited Tesla Semi enters volume production in Nevada",
+            "date": "2026-04-30",
+            "snippet": "Tesla has confirmed that the first Semi e-truck has rolled off a high-volume production line at its Nevada Gigafactory"
+          },
+          {
+            "url": "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
+            "title": "Tesla finally moves to electrify trucking after a decade of work and delays",
+            "date": "2026-09-25",
+            "snippet": "Tesla plans to build as many as 50,000 trucks a year at the plant."
+          }
+        ],
+        "resolvedOn": "2026-09-24",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "For those unaware, SpaceX has already shifted focus to building a self-growing city on the Moon, as we can potentially achieve that in less than 10 years, whereas Mars would take 20+ years.",
+      "quoteVerified": true,
+      "claim": "SpaceX has shifted its focus from Mars to the Moon and could build a self-growing city on the Moon within 10 years, while a Mars city would take more than 20 years.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2026-02-08",
+      "targetDate": "2036-02-08",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By February 2036, SpaceX has established a self-sustaining, growing settlement on the Moon.",
+      "hedge": "potentially",
+      "impliedProbability": 0.4,
+      "specificity": 2,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2020640004628742577",
+        "date": "2026-02-08",
+        "kind": "x"
+      },
+      "verdict": "pending",
+      "origin": "seed"
+    }
+  ]
+}

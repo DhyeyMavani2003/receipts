@@ -1,0 +1,71 @@
+{
+  "request": {
+    "schemaName": "drift_labels",
+    "variant": null,
+    "system_sha": "2b6023cca8479211",
+    "user_excerpt": "Speaker: Elon Musk\nTopic: tesla-robotaxi\nLabel every claim after #1 (11 transitions).\n\n#1\nclaimId: 9ea0a7398c8b\nsaid: 2016-10-19 (Tesla Autopilot 2.0 press call (reported by TechCrunch))\ndeadline: 201"
+  },
+  "response": {
+    "data": {
+      "transitions": [
+        {
+          "claimId": "319888cf53d5",
+          "label": "escalated",
+          "note": "Target changed from one fully autonomous Los Angeles-to-New York demonstration drive to more than one million robotaxis operating on roads."
+        },
+        {
+          "claimId": "0e10abd65b43",
+          "label": "softened",
+          "note": "Scope changed from more than one million robotaxis on the road to an initial paid driverless ride service in Austin."
+        },
+        {
+          "claimId": "20f2872ba931",
+          "label": "softened",
+          "note": "Claim narrowed from launching a paid Austin service in June 2025 to saying the deployment would have no in-car safety driver."
+        },
+        {
+          "claimId": "21d721262810",
+          "label": "softened",
+          "note": "Deployment was limited to geofenced parts of Austin considered safest."
+        },
+        {
+          "claimId": "40beb6e8c6c7",
+          "label": "goalposts_moved",
+          "note": "Focus changed from geofencing the Austin deployment to whether anyone would be sitting in the car."
+        },
+        {
+          "claimId": "66aa4c34408b",
+          "label": "softened",
+          "note": "The deployment added a routing limitation, avoiding intersections unless Tesla was highly confident the cars would handle them well."
+        },
+        {
+          "claimId": "83695ad283fc",
+          "label": "escalated",
+          "note": "Scale changed from a constrained Austin deployment to hundreds of thousands, possibly more than one million, Teslas self-driving across the United States."
+        },
+        {
+          "claimId": "916732baecc8",
+          "label": "softened",
+          "note": "Scale changed from hundreds of thousands or more self-driving Teslas to starting the robotaxi deployment with about 10 cars."
+        },
+        {
+          "claimId": "d8b48b011ceb",
+          "label": "softened",
+          "note": "Claim shifted from a specific initial fleet size and ramp-up to a general statement that Austin was looking good for launch in June 2025."
+        },
+        {
+          "claimId": "e0977fae1132",
+          "label": "goalposts_moved",
+          "note": "Target changed from an Austin robotaxi launch to one Tesla driving itself from the factory to a customer house."
+        },
+        {
+          "claimId": "59ebc949b6f1",
+          "label": "escalated",
+          "note": "Scale changed from one factory-to-customer autonomous drive to autonomous ride-hailing available to about half of the US population."
+        }
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

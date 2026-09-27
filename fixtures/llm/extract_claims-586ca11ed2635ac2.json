@@ -1,0 +1,82 @@
+{
+  "request": {
+    "schemaName": "extract_claims",
+    "variant": null,
+    "system_sha": "40470d54e7f1941f",
+    "user_excerpt": "Speaker: Elon Musk\nHost (never attribute their words to the speaker): David Faber\nSource: \"CNBC interview with David Faber at Giga Texas, Part 1\" (podcast) https://www.youtube.com/watch?v=6hz9Bqnfi-I\n"
+  },
+  "response": {
+    "data": {
+      "claims": [
+        {
+          "quote": "Well\nre really the only things that matter in\nlong term are autonomy and optimis um\nthat those overwhelmingly dominate the\nthe future of financial success of the\ncompany.",
+          "claim": "Elon Musk's position is that autonomy and Optimus are the only things that matter for Tesla in the long term and will overwhelmingly dominate Tesla's future financial success.",
+          "type": "stance",
+          "topic": "tesla-autonomy-optimus",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Musk's later public statements or Tesla actions show he continues to identify autonomy and Optimus as overwhelmingly dominating Tesla's long-term financial success.",
+          "hedge": "",
+          "specificity": 3
+        },
+        {
+          "quote": "Um, as for Q1, uh, we had a a\nglobal factory changeover for the Model\nY.",
+          "claim": "Tesla had a global factory changeover for the Model Y in the first quarter of 2025.",
+          "type": "factual",
+          "topic": "tesla-model-y-changeover",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla reports, production updates, or credible news coverage confirm that Tesla performed a global Model Y factory changeover in Q1 2025.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "So, uh, there's a new, uh, version of\nthe Model Y that came out, which\nrequired a factory shutdown across the\nworld.",
+          "claim": "Tesla's new version of the Model Y required factory shutdowns across the world.",
+          "type": "factual",
+          "topic": "tesla-model-y-changeover",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla reports, production updates, or credible news coverage confirm that the new Model Y version required shutdowns at Tesla factories globally.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "Model Y is the number one selling\ncar of any kind, number one in the\nworld.",
+          "claim": "The Tesla Model Y is the number-one-selling car of any kind in the world.",
+          "type": "factual",
+          "topic": "tesla-model-y-sales",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Global auto sales rankings from industry analysts or credible news coverage show the Tesla Model Y ranked as the world's best-selling car at the time of the interview.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "Right. It's number one number one\nselling car in the world.",
+          "claim": "The Tesla Model Y is the number-one-selling car in the world.",
+          "type": "factual",
+          "topic": "tesla-model-y-sales",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Global auto sales rankings from industry analysts or credible news coverage show the Tesla Model Y ranked as the world's best-selling car at the time of the interview.",
+          "hedge": "",
+          "specificity": 4
+        },
+        {
+          "quote": "So we the re\nand the right time to retool is the\nfirst quarter since generally that's\nwhen the least demand occurs but we've\nseen us a major rebound in demand at\nthis point.",
+          "claim": "Tesla had seen a major rebound in demand by May 20, 2025.",
+          "type": "factual",
+          "topic": "tesla-vehicle-demand",
+          "targetDate": null,
+          "targetDateInferred": false,
+          "resolutionCriteria": "Tesla order, delivery, or sales data, or credible reporting, show a major rebound in Tesla vehicle demand by May 20, 2025.",
+          "hedge": "",
+          "specificity": 3
+        }
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

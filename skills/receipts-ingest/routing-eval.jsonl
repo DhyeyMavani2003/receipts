@@ -1,0 +1,7 @@
+{"intent": "pull receipts from this Lex Fridman episode, the guest is Sam Altman", "expected_skill": "receipts-ingest"}
+{"intent": "log the predictions in yesterday's All-In podcast for Chamath", "expected_skill": "receipts-ingest"}
+{"intent": "extract the claims from this interview transcript, speaker is Jensen Huang", "expected_skill": "receipts-ingest"}
+{"intent": "add this episode to receipts: https://www.youtube.com/watch?v=abc123 with Satya Nadella speaking", "expected_skill": "receipts-ingest"}
+{"intent": "what did they predict in this keynote? put it on their person page", "expected_skill": "receipts-ingest"}
+{"intent": "grade the predictions that came due for Elon Musk", "expected_skill": "receipts-grade"}
+{"intent": "summarize this podcast for me in three bullets", "expected_skill": null}

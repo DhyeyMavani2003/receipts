@@ -1,0 +1,21 @@
+{
+  "request": {
+    "schemaName": "drift_labels",
+    "variant": null,
+    "system_sha": "2b6023cca8479211",
+    "user_excerpt": "Speaker: Elon Musk\nTopic: tesla-semi\nLabel every claim after #1 (1 transitions).\n\n#1\nclaimId: f30225d48ba1\nsaid: 2017-11-16 (Tesla Semi & Roadster Unveil)\ndeadline: 2019-12-31\nhedge: \"\" (p=0.85)\nquote"
+  },
+  "response": {
+    "data": {
+      "transitions": [
+        {
+          "claimId": "dc33626ef75c",
+          "label": "pushed_later",
+          "note": "Semi production moved from starting in 2019 to volume production in 2026."
+        }
+      ]
+    },
+    "citations": [],
+    "model": "human:seed-drift"
+  }
+}

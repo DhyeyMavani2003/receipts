@@ -1,0 +1,7 @@
+{"intent": "how has their story changed on landing on Mars since 2016?", "expected_skill": "receipts-drift"}
+{"intent": "did they move the goalposts on AGI again this year?", "expected_skill": "receipts-drift"}
+{"intent": "show the deadline drift for the robotaxi promises", "expected_skill": "receipts-drift"}
+{"intent": "show how the timeline slipped on the Cybertruck launch", "expected_skill": "receipts-drift"}
+{"intent": "has the deadline been pushed again on full self-driving?", "expected_skill": "receipts-drift"}
+{"intent": "pull receipts from this keynote first, then we can look at drift", "expected_skill": "receipts-ingest"}
+{"intent": "show me the git diff for this branch", "expected_skill": null}

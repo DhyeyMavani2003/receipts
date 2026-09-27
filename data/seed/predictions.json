@@ -1,0 +1,1476 @@
+{
+  "version": 1,
+  "claims": [
+    {
+      "id": "c4c9ba152552",
+      "person": "Bill Gates",
+      "personSlug": "bill-gates",
+      "quote": "If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war.",
+      "quoteVerified": true,
+      "claim": "If any single catastrophe kills more than 10 million people in the next few decades, it will most likely be a highly infectious virus rather than a war.",
+      "type": "prediction",
+      "topic": "pandemic-risk",
+      "saidDate": "2015-03-18",
+      "targetDate": "2045-03-18",
+      "targetDateInferred": true,
+      "resolutionCriteria": "An event killing more than 10 million people occurs within a few decades of 2015, and it is a viral epidemic rather than a war.",
+      "hedge": "most likely",
+      "impliedProbability": 0.7,
+      "specificity": 2,
+      "source": {
+        "title": "The next outbreak? We're not ready (TED2015)",
+        "url": "https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready/transcript",
+        "date": "2015-03-18",
+        "kind": "keynote"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.85,
+        "rationale": "The WHO estimated about 14.9 million excess deaths associated with the COVID-19 pandemic, a viral outbreak, in 2020 and 2021 alone, and no war since 2015 has come close to that toll. The 10 million threshold is met on excess-mortality estimates rather than on officially reported COVID-19 deaths.",
+        "evidence": [
+          {
+            "url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+            "title": "14.9 million excess deaths were associated with the COVID-19 pandemic in 2020 and 2021",
+            "date": "2022-05-05",
+            "snippet": "the full death toll associated directly or indirectly with the COVID-19 pandemic (described as \"excess mortality\") between 1 January 2020 and 31 December 2021 was approximately 14.9 million (range 13.3 million to 16.6 million)."
+          },
+          {
+            "url": "https://www.eurekalert.org/news-releases/945949",
+            "title": "THE LANCET: Global death toll of COVID-19 pandemic may be more than three times higher than official records, estimates of excess deaths indicate",
+            "date": "2022-03-10",
+            "snippet": "the new study estimates 18.2 million excess deaths occurred over the same period"
+          }
+        ],
+        "resolvedOn": "2022-05-05",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "2c39d17f7567",
+      "person": "Bill Gates",
+      "personSlug": "bill-gates",
+      "quote": "Within the next two or three years, I predict most virtual meetings will move from 2D camera image grids—which I call the Hollywood Squares model, although I know that probably dates me—to the metaverse, a 3D space with digital avatars.",
+      "quoteVerified": true,
+      "claim": "Within two to three years, most virtual meetings will move from 2D video grids to 3D metaverse spaces with digital avatars.",
+      "type": "prediction",
+      "topic": "metaverse-meetings",
+      "saidDate": "2021-12-07",
+      "targetDate": "2024-12-07",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By December 2024, a majority of virtual meetings take place in 3D virtual spaces with avatars rather than in 2D video calls.",
+      "hedge": "I predict",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Reasons for optimism after a difficult year (Gates Notes)",
+        "url": "https://www.gatesnotes.com/Year-in-Review-2021",
+        "date": "2021-12-07",
+        "kind": "blog"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "Virtual meetings stayed overwhelmingly on 2D video platforms; Microsoft retired its Mesh 3D collaboration platform in late 2025 and Meta discontinued its Horizon Workrooms VR meeting app in February 2026.",
+        "evidence": [
+          {
+            "url": "https://www.computerworld.com/article/4100319/microsoft-retires-mesh-app-launches-immersive-spaces-for-teams.html",
+            "title": "Microsoft retires Mesh app, launches 'immersive spaces' for Teams",
+            "date": "2025-12-03",
+            "snippet": "Use cases tend to be very targeted around training, product demonstrations, engineering and design, and customer engagement rather than for general purpose meetings."
+          },
+          {
+            "url": "https://roadtovr.com/meta-horizon-workrooms-discontinued-2026/",
+            "title": "Meta is Deleting 'Horizon Workrooms' Next Month as Metaverse Ambitions Cool",
+            "date": "2026-01-16",
+            "snippet": "Meta has made the decision to discontinue Workrooms as a standalone app, effective February 16, 2026."
+          },
+          {
+            "url": "https://www.theregister.com/2026/01/16/meta_quest_horizon_workrooms/",
+            "title": "Meta retreats from metaverse after virtual reality check",
+            "date": "2026-01-16",
+            "snippet": "Horizon Workrooms, a virtual reality conferencing system, was introduced in 2021 and failed to set the world alight."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "81c61975b007",
+      "person": "Dario Amodei",
+      "personSlug": "dario-amodei",
+      "quote": "what we are finding is we are not far from the world—I think we'll be there in three to six months—where AI is writing 90 percent of the code.",
+      "quoteVerified": true,
+      "claim": "AI will be writing 90% of all code within three to six months of March 2025.",
+      "type": "prediction",
+      "topic": "ai-coding",
+      "saidDate": "2025-03-10",
+      "targetDate": "2025-09-10",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By September 2025, about 90% of newly written code across the software industry is generated by AI.",
+      "hedge": "I think",
+      "impliedProbability": 0.65,
+      "specificity": 4,
+      "source": {
+        "title": "CEO Speaker Series with Dario Amodei, Council on Foreign Relations (transcript)",
+        "url": "https://www.cfr.org/event/ceo-speaker-series-dario-amodei-anthropic",
+        "date": "2025-03-10",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.8,
+        "rationale": "Six months after the forecast, reporting cited earlier Microsoft and Google estimates of roughly 25-30% of their code being AI-generated, and an independent October 2025 analysis found that only a minority of Anthropic's own teams were near 90%. Amodei later said most code at Anthropic itself is AI-written; this grade uses the industry-wide reading of 'the code'.",
+        "evidence": [
+          {
+            "url": "https://www.itpro.com/technology/artificial-intelligence/anthropic-ceo-dario-amodei-ai-generated-code",
+            "title": "Anthropic CEO Dario Amodei's prediction about AI in software development is nowhere nearly to becoming a reality",
+            "date": "2025-09-15",
+            "snippet": "having passed the six-month mark, Amodei's bold prediction hasn't quite come to fruition"
+          },
+          {
+            "url": "https://blog.redwoodresearch.org/p/is-90-of-code-at-anthropic-being",
+            "title": "Is 90% of code at Anthropic being written by AIs?",
+            "date": "2025-10-22",
+            "snippet": "There exist some teams at Anthropic where around 90% of lines of code that get merged are written by AI, but this is a minority of teams."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "eeb2b613876b",
+      "person": "Dario Amodei",
+      "personSlug": "dario-amodei",
+      "quote": "I predicted that AI could displace half of all entry-level white collar jobs in the next 1–5 years, even as it accelerates economic growth and scientific progress.",
+      "quoteVerified": true,
+      "claim": "AI will displace half of all entry-level white-collar jobs within one to five years of Amodei's 2025 warning.",
+      "type": "prediction",
+      "topic": "ai-jobs",
+      "saidDate": "2026-01-26",
+      "targetDate": "2030-05-28",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By May 2030, credible labor data show roughly half of entry-level white-collar jobs displaced by AI.",
+      "hedge": "could",
+      "impliedProbability": 0.4,
+      "specificity": 3,
+      "source": {
+        "title": "The Adolescence of Technology",
+        "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
+        "date": "2026-01-26",
+        "kind": "blog"
+      },
+      "verdict": "pending",
+      "origin": "seed"
+    },
+    {
+      "id": "fa78a7860f86",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "The basic game plan is we're going to send a mission to Mars with every Mars opportunity from 2018 onwards.",
+      "quoteVerified": true,
+      "claim": "SpaceX will send a mission to Mars in every Earth-Mars launch opportunity starting with the 2018 window.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2016-06-01",
+      "targetDate": "2018-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "A SpaceX spacecraft launches toward Mars during the 2018 Earth-Mars launch window.",
+      "hedge": "The basic game plan is",
+      "impliedProbability": 0.75,
+      "specificity": 4,
+      "source": {
+        "title": "Code Conference 2016 interview (reported by Spaceflight Now)",
+        "url": "https://spaceflightnow.com/2016/06/02/elon-musk-hopes-spacex-will-send-humans-to-mars-in-2024/",
+        "date": "2016-06-01",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "SpaceX did not launch a mission to Mars in 2018; the planned Red Dragon flight slipped to 2020 and was effectively shelved after SpaceX dropped propulsive Dragon landings in July 2017. No SpaceX vehicle has launched to Mars as of September 2026.",
+        "evidence": [
+          {
+            "url": "https://spaceflightnow.com/2017/07/19/propulsive-landings-nixed-from-spacexs-dragon-spaceship/",
+            "title": "Propulsive landings nixed from SpaceX's Dragon spaceship",
+            "date": "2017-07-19",
+            "snippet": "Gwynne Shotwell, SpaceX's president and chief operating officer, said in February that the first Red Dragon flight was delayed to mid-2020 from 2018"
+          },
+          {
+            "url": "https://spacenews.com/spacex-drops-plans-for-powered-dragon-landings/",
+            "title": "SpaceX drops plans for powered Dragon landings",
+            "date": "2017-07-19",
+            "snippet": "SpaceX announced plans for Red Dragon last year for launch in 2018, but SpaceX President Gwynne Shotwell said in February that the launch had slipped to 2020"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "9ea0a7398c8b",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "Our goal is, and I feel pretty good about this goal, that we'll be able to do a demonstration drive of full autonomy all the way from LA to New York, from home in LA to let's say dropping you off in Time Square in New York, and then having the car go park itself, by the end of next year. Without the need for a single touch, including the charger.",
+      "quoteVerified": true,
+      "claim": "A Tesla will complete a fully autonomous demonstration drive from Los Angeles to New York, with no human touch, by the end of 2017.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2016-10-19",
+      "targetDate": "2017-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Tesla completes and shows a coast-to-coast LA-to-New York drive with no human intervention (including charging) by December 31, 2017.",
+      "hedge": "Our goal is",
+      "impliedProbability": 0.55,
+      "specificity": 5,
+      "source": {
+        "title": "Tesla Autopilot 2.0 press call (reported by TechCrunch)",
+        "url": "https://techcrunch.com/2016/10/19/musk-targeting-coast-to-coast-test-drive-of-fully-self-driving-tesla-by-late-2017/",
+        "date": "2016-10-19",
+        "kind": "other"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "No fully autonomous coast-to-coast demonstration drive took place in 2017; in February 2018 Musk said the drive was still three to six months away, and it was never carried out as described.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2018/02/07/elon-musk-expects-to-do-coast-to-coast-autonomous-tesla-drive-in-3-to-6-months/",
+            "title": "Elon Musk expects to do coast-to-coast autonomous Tesla drive in 3 to 6 months",
+            "date": "2018-02-07",
+            "snippet": "Tesla had aimed to do a cross-country U.S. drive in one of its vehicles using fully autonomous driving capabilities by the end of last year. Obviously it didn't make that goal"
+          },
+          {
+            "url": "https://techcrunch.com/2021/05/07/tesla-refutes-elon-musks-timeline-on-full-self-driving/",
+            "title": "Tesla refutes Elon Musk's timeline on 'full self-driving'",
+            "date": "2021-05-07",
+            "snippet": "Tesla is at Level 2 currently."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "48f56b2199f4",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "I feel fairly confident that we can complete the ship and be ready for a launch in about five years.",
+      "quoteVerified": true,
+      "claim": "SpaceX will complete its first Mars ship and have it ready for launch in about five years, by the end of 2022.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2017-09-29",
+      "targetDate": "2022-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "A completed SpaceX Mars ship (the BFR, later Starship) is ready to launch by December 31, 2022.",
+      "hedge": "fairly confident",
+      "impliedProbability": 0.75,
+      "specificity": 4,
+      "source": {
+        "title": "Making Life Multiplanetary, IAC 2017 Adelaide (reported by CBC News)",
+        "url": "https://www.cbc.ca/news/science/spacex-mars-rocket-elon-musk-1.4312878",
+        "date": "2017-09-29",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "No SpaceX ship was ready to launch to Mars by the end of 2022; the fully stacked Starship first flew on April 20, 2023, on a test flight that ended in an explosion.",
+        "evidence": [
+          {
+            "url": "https://www.space.com/spacex-starship-first-space-launch",
+            "title": "SpaceX's 1st Starship launches on epic test flight, explodes in 'rapid unscheduled disassembly'",
+            "date": "2023-04-20",
+            "snippet": "A fully stacked Starship left the ground today (April 20) for the first time ever — and it came to an explosive end high in the Texas sky."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "f30225d48ba1",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "production begins 2019. So if you order now, get the ... truck in two years.",
+      "quoteVerified": true,
+      "claim": "Tesla Semi production will begin in 2019.",
+      "type": "prediction",
+      "topic": "tesla-semi",
+      "saidDate": "2017-11-16",
+      "targetDate": "2019-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Tesla begins series production of the Semi (trucks built for customers) by December 31, 2019.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Tesla Semi & Roadster Unveil",
+        "url": "https://www.youtube.com/watch?v=5RRmepp7i5g&t=1486s",
+        "date": "2017-11-16",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "Semi production did not begin in 2019; Musk announced the start of low-volume production in October 2022, with first deliveries to PepsiCo on December 1, 2022, and high-volume production began in 2026.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2022/10/06/tesla-semi-production-begins-with-pepsi-getting-the-first-deliveries",
+            "title": "Tesla Semi production begins with Pepsi getting the first deliveries",
+            "date": "2022-10-06",
+            "snippet": "Excited to announce start of production of Tesla Semi Truck with deliveries to @Pepsi on Dec 1st!"
+          },
+          {
+            "url": "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
+            "title": "Tesla finally moves to electrify trucking after a decade of work and delays",
+            "date": "2026-09-25",
+            "snippet": "Originally slated to go into production in 2019, the Semi was delayed for multiple reasons."
+          }
+        ],
+        "resolvedOn": "2022-10-06",
+        "latenessMonths": 33,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "319888cf53d5",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "From our standpoint, if you fast forward a year, maybe a year and three months, but next year for sure, we'll have over a million robotaxis on the road",
+      "quoteVerified": true,
+      "claim": "Tesla will have more than one million robotaxis operating on the road by the end of 2020.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2019-04-22",
+      "targetDate": "2020-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "More than one million Tesla vehicles are operating as driverless robotaxis on public roads by December 31, 2020.",
+      "hedge": "for sure",
+      "impliedProbability": 0.95,
+      "specificity": 5,
+      "source": {
+        "title": "Tesla Autonomy Day (reported by TechCrunch)",
+        "url": "https://techcrunch.com/2019/04/22/tesla-plans-to-launch-a-robotaxi-network-in-2020/",
+        "date": "2019-04-22",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "No Tesla robotaxis were operating in 2020; in 2021 Tesla told California regulators its system was still Level 2 driver assistance, and its first paid robotaxi service did not start until June 2025, with a safety monitor on board.",
+        "evidence": [
+          {
+            "url": "https://www.fastcompany.com/90677822/elon-musks-tesla-robotaxi-promise-typifies-self-driving-overexuberance",
+            "title": "Elon Musk's failed Tesla robotaxi promise is the height of self-driving hype",
+            "date": "2021-09-18",
+            "snippet": "So, a million operating Tesla robotaxis by the end of 2020 was just not going to happen."
+          },
+          {
+            "url": "https://techcrunch.com/2021/05/07/tesla-refutes-elon-musks-timeline-on-full-self-driving/",
+            "title": "Tesla refutes Elon Musk's timeline on 'full self-driving'",
+            "date": "2021-05-07",
+            "snippet": "Tesla is at Level 2 currently."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "5b717213c654",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "If you define AGI (artificial general intelligence) as smarter than the smartest human, I think it's probably next year, within two years.",
+      "quoteVerified": true,
+      "claim": "AI smarter than the smartest human will exist within two years, probably by 2025.",
+      "type": "prediction",
+      "topic": "agi-timeline",
+      "saidDate": "2024-04-08",
+      "targetDate": "2026-04-08",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By April 8, 2026 (two years after he spoke, the latest date his words allow), an AI system is broadly recognized as more capable than the smartest human across intellectual domains.",
+      "hedge": "I think it's probably",
+      "impliedProbability": 0.7,
+      "specificity": 2,
+      "source": {
+        "title": "X Spaces interview with Nicolai Tangen (Reuters, via South China Morning Post)",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3258309/teslas-musk-predicts-ai-will-be-smarter-smartest-human-next-year",
+        "date": "2024-04-08",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.65,
+        "rationale": "There was no broad agreement by April 8, 2026 that any AI system was smarter than the smartest humans; MIT Technology Review's overview of April 13, 2026 described AI as showing 'jagged intelligence', strong in some areas and weak in others. Graded against Musk's own stated test, AI smarter than the smartest human, not a general AGI definition.",
+        "evidence": [
+          {
+            "url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+            "title": "Want to understand the current state of AI? Check out these charts.",
+            "date": "2026-04-13",
+            "snippet": "AI exhibits 'jagged intelligence.'"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "bc5310538cbb",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "The first Starships to Mars will launch in 2 years when the next Earth-Mars transfer window opens. These will be uncrewed to test the reliability of landing intact on Mars.",
+      "quoteVerified": true,
+      "claim": "SpaceX will launch its first uncrewed Starships to Mars during the late-2026 Earth-Mars transfer window.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2024-09-07",
+      "targetDate": "2026-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "At least one uncrewed SpaceX Starship launches on a trajectory to Mars during the 2026 Earth-Mars transfer window.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/1832550322293837833",
+        "date": "2024-09-07",
+        "kind": "x"
+      },
+      "verdict": "pending",
+      "origin": "seed"
+    },
+    {
+      "id": "0e10abd65b43",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "So, we're going to be launching unsupervised full self-driving as a paid service in Austin in June. So, I talked to the team. We feel confident in being able to do an initial launch of unsupervised, no one in the car, full self-driving in Austin in June.",
+      "quoteVerified": true,
+      "claim": "Tesla will launch unsupervised Full Self-Driving, with no one in the car, as a paid ride service in Austin in June 2025.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2025-01-29",
+      "targetDate": "2025-06-30",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By June 30, 2025, Tesla operates a paid ride service in Austin using cars with no Tesla employee or safety driver on board.",
+      "hedge": "We feel confident",
+      "impliedProbability": 0.9,
+      "specificity": 5,
+      "source": {
+        "title": "Tesla Q4 2024 Earnings Call (Motley Fool transcript)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2025/01/29/tesla-tsla-q4-2024-earnings-call-transcript/",
+        "date": "2025-01-29",
+        "kind": "earnings_call"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.85,
+        "rationale": "Graded on Musk's own condition, 'unsupervised, no one in the car'. A paid, invite-only robotaxi service did launch in Austin on June 22, 2025, but every car carried a Tesla safety monitor in the front passenger seat, so the core 'unsupervised, no one in the car' condition was not met by the June 2025 deadline. Paid Austin rides with no one in the car began on January 22, 2026, in a few vehicles mixed into a fleet that still mostly had safety monitors.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2025/06/22/tesla-launches-robotaxi-rides-in-austin-with-big-promises-and-unanswered-questions",
+            "title": "Tesla launches robotaxi rides in Austin with big promises and unanswered questions",
+            "date": "2025-06-22",
+            "snippet": "a Tesla employee will be sitting in the right front passenger seat as a 'safety monitor.'"
+          },
+          {
+            "url": "https://electrek.co/2026/02/16/tesla-robotaxi-status-check-8-months-in/",
+            "title": "Tesla 'Robotaxi' status check: 8 months in, 19% availability, and all of Musk's promises are missing",
+            "date": "2026-02-16",
+            "snippet": "On the Q4 2024 earnings call, Musk declared that Teslas would be driving autonomously in Austin 'with no one in them' by June 2025."
+          },
+          {
+            "url": "https://techcrunch.com/2026/01/22/tesla-launches-robotaxi-rides-in-austin-with-no-human-safety-driver/",
+            "title": "Tesla launches robotaxi rides in Austin with no human safety driver",
+            "date": "2026-01-22",
+            "snippet": "starting with a few unsupervised vehicles mixed in with the broader robotaxi fleet with safety monitors, and the ratio will increase over time"
+          }
+        ],
+        "resolvedOn": "2026-01-22",
+        "latenessMonths": 7,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "893ee4523216",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "Will we succeed in building 10,000 exactly by the end of December this year? Probably not, but will we succeed in making several thousand? Yes, I think we will.",
+      "quoteVerified": true,
+      "claim": "Tesla will build several thousand Optimus humanoid robots in 2025.",
+      "type": "prediction",
+      "topic": "optimus-production",
+      "saidDate": "2025-01-29",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Tesla builds at least several thousand (2,000 or more) Optimus robots during calendar year 2025.",
+      "hedge": "I think",
+      "impliedProbability": 0.65,
+      "specificity": 4,
+      "source": {
+        "title": "Tesla Q4 2024 Earnings Call (Motley Fool transcript)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2025/01/29/tesla-tsla-q4-2024-earnings-call-transcript/",
+        "date": "2025-01-29",
+        "kind": "earnings_call"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.9,
+        "rationale": "Supply-chain reports in mid-2025 said Optimus production was paused for a redesign, and on the January 2026 earnings call Musk said Optimus was still in the R&D phase with no significant production volume expected until the end of 2026.",
+        "evidence": [
+          {
+            "url": "https://www.tomshardware.com/maker-stem/robot-kits/elon-musks-optimus-boast-in-doubt-as-humanoid-robot-production-plans-halted-telsas-projections-for-10-000-robots-in-2025-cast-into-doubt-according-to-supply-chain-sources",
+            "title": "Elon Musk's Optimus boast in doubt as humanoid robot production plans halted",
+            "date": "2025-07-04",
+            "snippet": "it stopped parts procurement mid-month, with its engineers asking for approximately two months to recalibrate."
+          },
+          {
+            "url": "https://www.tipranks.com/news/tesla-tsla-delays-optimus-robot-amid-production-and-leadership-setbacks",
+            "title": "Tesla (TSLA) delays Optimus robot amid production and leadership setbacks",
+            "date": "2025-07-28",
+            "snippet": "The company had planned to build 5,000 units in 2025, but has only produced a few hundred."
+          },
+          {
+            "url": "https://electrek.co/2026/01/28/musk-admits-no-optimus-robots-are-doing-useful-work-at-tesla-after-claiming-otherwise/",
+            "title": "Musk admits no Optimus robots are doing 'useful work' at Tesla — after claiming otherwise",
+            "date": "2026-01-28",
+            "snippet": "We wouldn't expect to have any kind of significant Optimus production volume until probably the end of this year."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "e0977fae1132",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "First Tesla that drives itself from factory end of line all the way to a customer house is June 28.",
+      "quoteVerified": true,
+      "claim": "A new Tesla will drive itself with no one on board from the factory to a customer's home on June 28, 2025.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2025-06-11",
+      "targetDate": "2025-06-28",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By June 28, 2025, a new Tesla drives itself from the factory end of line to a customer's home with no one in the car.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 5,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/1932591896939147494",
+        "date": "2025-06-11",
+        "kind": "x"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.85,
+        "rationale": "Tesla said a Model Y drove itself from the factory to a customer's home across town, including highways, on June 27, 2025, one day early, with no one in the car. The delivery was shown in Tesla's own unedited video of the full drive; no independent observer confirmed it.",
+        "evidence": [
+          {
+            "url": "https://electrek.co/2025/06/27/elon-musk-claims-tesla-delivered-first-car-fully-autonomously-factory-customer/",
+            "title": "Elon Musk claims Tesla delivered its first car fully autonomously from factory to customer",
+            "date": "2025-06-27",
+            "snippet": "The first fully autonomous delivery of a Tesla Model Y from factory to a customer home across town, including highways, was just completed."
+          },
+          {
+            "url": "https://www.investing.com/news/stock-market-news/tesla-completes-first-fully-autonomous-model-y-delivery-ahead-of-schedule-4115118",
+            "title": "Tesla completes first fully autonomous Model Y delivery ahead of schedule (Reuters)",
+            "date": "2025-06-27",
+            "snippet": "the first fully autonomous delivery of Model Y from the factory to a customer's home across town was completed a day ahead of schedule"
+          }
+        ],
+        "resolvedOn": "2025-06-27",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "59ebc949b6f1",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "I think we will probably have autonomous ride-hailing in probably half the population of the US by the end of the year. That's at least our goal, subject to regulatory approvals.",
+      "quoteVerified": true,
+      "claim": "Tesla autonomous ride-hailing will be available to about half of the US population by the end of 2025.",
+      "type": "prediction",
+      "topic": "tesla-robotaxi",
+      "saidDate": "2025-07-23",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By December 31, 2025, Tesla autonomous ride-hailing service areas cover metro areas holding roughly half of the US population.",
+      "hedge": "I think we will probably",
+      "impliedProbability": 0.7,
+      "specificity": 4,
+      "source": {
+        "title": "Tesla Q2 2025 Earnings Call (Motley Fool transcript)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/tesla-tsla-q2-2025-earnings-call-transcript/",
+        "date": "2025-07-23",
+        "kind": "earnings_call"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "At the end of 2025, Tesla's ride-hailing ran only in Austin and the San Francisco Bay Area, with safety monitors or drivers in the cars, far short of half the US population.",
+        "evidence": [
+          {
+            "url": "https://electrek.co/2025/12/22/tesla-robotaxi-project-austin-much-smaller-than-musk-claims/",
+            "title": "Tesla's Robotaxi project in Austin is much smaller than Musk claims",
+            "date": "2025-12-22",
+            "snippet": "the autonomous but supervised ride-hailing system in Austin consists of no more than a few vehicles (~5) operating at the same time."
+          },
+          {
+            "url": "https://electrek.co/2026/02/16/tesla-robotaxi-status-check-8-months-in/",
+            "title": "Tesla 'Robotaxi' status check: 8 months in, 19% availability, and all of Musk's promises are missing",
+            "date": "2026-02-16",
+            "snippet": "Tesla's 'Robotaxi' service shuts down when it rains in Austin."
+          },
+          {
+            "url": "https://insideevs.com/news/783157/musk-promises-2025-eoy-robotaxis/",
+            "title": "Tesla's Big Robotaxi Promises Fall Flat As 2025 Comes To A Close",
+            "date": "2025-12-31",
+            "snippet": "Musk has said that the service would expand to Dallas, Houston, Phoenix, Miami and Las Vegas. Combined, that vision represents about 15.25 million people, or around 4.5% of the U.S. population."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "dc33626ef75c",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "Tesla Semi will be in volume production next year",
+      "quoteVerified": true,
+      "claim": "The Tesla Semi will be in volume production during 2026.",
+      "type": "prediction",
+      "topic": "tesla-semi",
+      "saidDate": "2025-08-11",
+      "targetDate": "2026-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "Tesla starts volume (high-rate series) production of the Semi by December 31, 2026.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 3,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/1954797066091217313",
+        "date": "2025-08-11",
+        "kind": "x"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.85,
+        "rationale": "The first Semi came off Tesla's high-volume line in Nevada in late April 2026, and Tesla formally launched high-volume production and customer deliveries at its dedicated Semi factory on September 24, 2026. Actual output rates are not yet independently reported.",
+        "evidence": [
+          {
+            "url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/",
+            "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
+            "date": "2026-09-25",
+            "snippet": "Tesla officially launched high-volume production of the Tesla Semi last night at its new dedicated factory in Nevada"
+          },
+          {
+            "url": "https://www.automotiveworld.com/news/long-awaited-tesla-semi-enters-volume-production-in-nevada/",
+            "title": "Long-awaited Tesla Semi enters volume production in Nevada",
+            "date": "2026-04-30",
+            "snippet": "Tesla has confirmed that the first Semi e-truck has rolled off a high-volume production line at its Nevada Gigafactory"
+          },
+          {
+            "url": "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
+            "title": "Tesla finally moves to electrify trucking after a decade of work and delays",
+            "date": "2026-09-25",
+            "snippet": "Tesla plans to build as many as 50,000 trucks a year at the plant."
+          }
+        ],
+        "resolvedOn": "2026-09-24",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "c1c59c9952eb",
+      "person": "Elon Musk",
+      "personSlug": "elon-musk",
+      "quote": "For those unaware, SpaceX has already shifted focus to building a self-growing city on the Moon, as we can potentially achieve that in less than 10 years, whereas Mars would take 20+ years.",
+      "quoteVerified": true,
+      "claim": "SpaceX has shifted its focus from Mars to the Moon and could build a self-growing city on the Moon within 10 years, while a Mars city would take more than 20 years.",
+      "type": "prediction",
+      "topic": "mars-landing",
+      "saidDate": "2026-02-08",
+      "targetDate": "2036-02-08",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By February 2036, SpaceX has established a self-sustaining, growing settlement on the Moon.",
+      "hedge": "potentially",
+      "impliedProbability": 0.4,
+      "specificity": 2,
+      "source": {
+        "title": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2020640004628742577",
+        "date": "2026-02-08",
+        "kind": "x"
+      },
+      "verdict": "pending",
+      "origin": "seed"
+    },
+    {
+      "id": "447dc5a7dcec",
+      "person": "Geoffrey Hinton",
+      "personSlug": "geoffrey-hinton",
+      "quote": "It's just completely obvious that within five years deep learning is going to do better than radiologists.… It might be 10 years, but we've got plenty of radiologists already.",
+      "quoteVerified": true,
+      "claim": "Within five years of October 2016, deep learning will do better than human radiologists, so training new radiologists should stop.",
+      "type": "prediction",
+      "topic": "ai-radiology",
+      "saidDate": "2016-10-27",
+      "targetDate": "2021-10-27",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By October 2021, deep learning outperforms human radiologists at their core work, making the training of new radiologists unnecessary.",
+      "hedge": "It's just completely obvious",
+      "impliedProbability": 0.95,
+      "specificity": 4,
+      "source": {
+        "title": "Machine Learning and the Market for Intelligence, Creative Destruction Lab, Toronto (quoted by The New Republic)",
+        "url": "https://newrepublic.com/article/187203/ai-radiology-geoffrey-hinton-nobel-prediction",
+        "date": "2016-10-27",
+        "kind": "keynote"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.9,
+        "rationale": "AI did not surpass radiologists at their overall work by 2021, and demand for radiologists kept growing: U.S. active radiologists rose about 10% over the decade and Mayo Clinic's radiologist numbers rose 55% since 2016. As of May 2026, near the 10-year outer bound Hinton also mentioned, radiologists remained in short supply.",
+        "evidence": [
+          {
+            "url": "https://fortune.com/2026/05/04/godfather-of-ai-geoffrey-hinton-radiologists-future-of-work-tech-ai-job-anxiety/",
+            "title": "A decade after the 'Godfather of AI' said radiologists were obsolete, their salaries are up to $571K and demand is growing fast",
+            "date": "2026-05-04",
+            "snippet": "Over the last 10 years, the number of active radiologists in the U.S. has grown by about 10%"
+          },
+          {
+            "url": "https://www.aei.org/articles/ai-and-the-radiologist-apocalypse-that-wasnt/",
+            "title": "AI and the Radiologist Apocalypse That Wasn't",
+            "date": "2025-05-15",
+            "snippet": "At the Mayo Clinic, where radiologist numbers have jumped 55 percent since then"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "29fbb2aa178a",
+      "person": "Jensen Huang",
+      "personSlug": "jensen-huang",
+      "quote": "If I gave an AI… every single test that you can possibly imagine, you make that list of tests and put it in front of the computer science industry, and I'm guessing in five years time, we'll do well on every single one.",
+      "quoteVerified": true,
+      "claim": "Within five years of March 2024, AI will do well on every test that can be devised to compare it with humans, Huang's test-based definition of AGI.",
+      "type": "prediction",
+      "topic": "agi-timeline",
+      "saidDate": "2024-03-01",
+      "targetDate": "2029-03-01",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By March 2029, AI systems perform well on essentially every test devised to compare AI with human abilities, including professional, academic and reasoning exams.",
+      "hedge": "I'm guessing",
+      "impliedProbability": 0.65,
+      "specificity": 3,
+      "source": {
+        "title": "Stanford SIEPR Economic Summit (quoted by Fox Business)",
+        "url": "https://www.foxbusiness.com/technology/nvidia-ceo-jensen-huang-says-ai-could-pass-most-human-tests-5-years",
+        "date": "2024-03-01",
+        "kind": "interview"
+      },
+      "verdict": "pending",
+      "origin": "seed"
+    },
+    {
+      "id": "837e87c1c364",
+      "person": "Jensen Huang",
+      "personSlug": "jensen-huang",
+      "quote": "From ChatGPT to o1 to Astra in 4 years. AGI has arrived. Congratulations @OpenAI team.",
+      "quoteVerified": true,
+      "claim": "Artificial general intelligence has arrived, marked by OpenAI's GPT-6 Astra model.",
+      "type": "stance",
+      "topic": "agi-timeline",
+      "saidDate": "2026-09-06",
+      "resolutionCriteria": "An agreed definition or widely accepted test of AGI is met by OpenAI's Astra, as judged by independent researchers.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 2,
+      "source": {
+        "title": "Jensen Huang on X",
+        "url": "https://x.com/JensenHuang/status/2096700264569090384",
+        "date": "2026-09-06",
+        "kind": "x"
+      },
+      "verdict": "unresolvable",
+      "grading": {
+        "verdict": "unresolvable",
+        "confidence": 0.75,
+        "rationale": "There is no universally accepted definition or test for AGI, so the statement cannot be checked against an agreed standard; critics including Gary Marcus said it was made with no evidence and no definitions.",
+        "evidence": [
+          {
+            "url": "https://www.benzinga.com/markets/tech/26/09/61645497/jensen-huang-agi-arrived-openai-gpt-6-astra-no-evidence-no-definitions",
+            "title": "Jensen Huang Says 'AGI Has Arrived' With OpenAI's GPT-6 Astra, but Has It Really?",
+            "date": "2026-09-06",
+            "snippet": "Sad to see Jensen claim that AGI has arrived, with no evidence and no definitions."
+          },
+          {
+            "url": "https://fortune.com/2026/03/30/agi-definition-jensen-huang-lex-fridman-deepmind-turing-text-cognitive-taxonomy",
+            "title": "Nvidia's Jensen Huang says 'We've achieved AGI.' But no one can agree on what that means.",
+            "date": "2026-03-30",
+            "snippet": "That's been the case even though there is no universally accepted definition of the term."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "4ecfda8ce592",
+      "person": "John Zimmer",
+      "personSlug": "john-zimmer",
+      "quote": "Autonomous vehicle fleets will quickly become widespread and will account for the majority of Lyft rides within 5 years.",
+      "quoteVerified": true,
+      "claim": "Autonomous vehicles will provide the majority of Lyft rides by September 2021.",
+      "type": "prediction",
+      "topic": "lyft-autonomous-rides",
+      "saidDate": "2016-09-18",
+      "targetDate": "2021-09-18",
+      "targetDateInferred": false,
+      "resolutionCriteria": "More than half of all Lyft rides are given in autonomous vehicles by September 18, 2021.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "The Third Transportation Revolution (John Zimmer on Medium)",
+        "url": "https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91",
+        "date": "2016-09-18",
+        "kind": "blog"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.98,
+        "rationale": "Lyft sold its in-house self-driving unit to Toyota's Woven Planet in April 2021, and in November 2021 Lyft and Motional said their Las Vegas robotaxi fleet had given over 100,000 public rides in total, with a fully driverless commercial launch planned for 2023. Autonomous rides remained a tiny fraction of Lyft's volume at the deadline.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2021/04/26/lyft-sells-self-driving-unit-to-toyotas-woven-planet-for-550m",
+            "title": "Lyft sells self-driving unit to Toyota's Woven Planet for $550M",
+            "date": "2021-04-26",
+            "snippet": "Lyft has sold off its autonomous vehicle unit to Toyota's Woven Planet Holdings subsidiary for $550 million"
+          },
+          {
+            "url": "https://www.lyft.com/blog/posts/motional-and-lyft-to-launch-fully-driverless-ride-hail-service-in-las-vegas",
+            "title": "Motional and Lyft to Launch Fully Driverless Ride-hail Service in Las Vegas in 2023",
+            "date": "2021-11-09",
+            "snippet": "Motional and Lyft to begin transporting public passengers in the IONIQ 5 robotaxis starting in 2022 and will scale to a full-fledged commercial launch in 2023"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "72f1e3ef5307",
+      "person": "John Zimmer",
+      "personSlug": "john-zimmer",
+      "quote": "By 2025, private car ownership will all-but end in major U.S. cities.",
+      "quoteVerified": true,
+      "claim": "Private car ownership will all but end in major U.S. cities by 2025.",
+      "type": "prediction",
+      "topic": "car-ownership",
+      "saidDate": "2016-09-18",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By the end of 2025, only a small minority of households in major U.S. cities own a private car.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 3,
+      "source": {
+        "title": "The Third Transportation Revolution (John Zimmer on Medium)",
+        "url": "https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91",
+        "date": "2016-09-18",
+        "kind": "blog"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.97,
+        "rationale": "Census data for 2023 show 8% of U.S. households without a vehicle and 36% in Washington, D.C., among the highest shares in the country; the U.S. light-vehicle fleet grew to 289 million in 2025, and 2025 new-vehicle sales of about 16.3 million were the highest since 2019.",
+        "evidence": [
+          {
+            "url": "https://www.pewresearch.org/short-reads/2024/11/14/1-in-10-americans-rarely-or-never-drive-a-car/",
+            "title": "1 in 10 Americans rarely or never drive a car",
+            "date": "2024-11-14",
+            "snippet": "D.C. (36%), New York state (30%), Massachusetts (12%) and New Jersey (11%) are among the places with the highest shares of households with no vehicle available."
+          },
+          {
+            "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025,-According-to-S-P-Global-Mobility",
+            "title": "U.S. Vehicle Age Rises Again to 12.8 Years in 2025, According to S&P Global Mobility",
+            "date": "2025-05-21",
+            "snippet": "vehicles in operation grew to 289 million with a steady 4.5% scrappage rate."
+          },
+          {
+            "url": "https://www.coxautoinc.com/insights/cox-automotive-forecast-dec-2025-u-s-auto-sales-forecast/",
+            "title": "Cox Automotive Forecast: Despite Q4 Slowdown, New-Vehicle Sales Forecast to Reach 16.3 Million in 2025",
+            "date": "2025-12-17",
+            "snippet": "Despite Q4 Slowdown, New-Vehicle Sales Forecast to Reach 16.3 Million in 2025, up Nearly 2% from 2024; Best Result Since 2019"
+          },
+          {
+            "url": "https://www.carpro.com/blog/full-year-2025-u.s.-auto-sales-report",
+            "title": "Full-Year 2025 U.S. Auto Sales Report",
+            "date": "2026-01-07",
+            "snippet": "rose 2.3 percent to 16.3 million units in 2025"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "8c18b2462ef4",
+      "person": "Marc Benioff",
+      "personSlug": "marc-benioff",
+      "quote": "We're not adding any more software engineers next year because we have increased the productivity this year with Agentforce and with other AI technology that we're using for engineering teams by more than 30%",
+      "quoteVerified": true,
+      "claim": "Salesforce will not add any software engineers in 2025 because AI tools have raised engineering productivity by more than 30%.",
+      "type": "prediction",
+      "topic": "ai-engineering-hiring",
+      "saidDate": "2024-12-09",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Salesforce's software engineering headcount does not grow during 2025.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "20VC with Harry Stebbings: Marc Benioff (quoted by Salesforce Ben)",
+        "url": "https://www.salesforceben.com/salesforce-will-hire-no-more-software-engineers-in-2025-says-marc-benioff/",
+        "date": "2024-12-09",
+        "kind": "podcast"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.65,
+        "rationale": "Benioff later said Salesforce held its roughly 15,000-person engineering headcount mostly flat through 2025, which matches the claim. The evidence comes from company statements rather than independent headcount data, and 'mostly flat' does not rule out a small number of hires.",
+        "evidence": [
+          {
+            "url": "https://www.itpro.com/business/business-strategy/marc-benioff-salesforce-software-engineering-hiring-flat-ai",
+            "title": "'They're more productive than ever': Marc Benioff says hiring in software engineering is 'mostly flat' at Salesforce because of AI",
+            "date": "2026-01-15",
+            "snippet": "I've held my engineering headcount mostly flat this year because I've gotten so much productivity increase."
+          },
+          {
+            "url": "https://fortune.com/2026/05/28/ai-slashes-white-collar-jobs-salesforce-ceo-marc-benioff-one-department-still-hiring-sales/",
+            "title": "As AI slashes white-collar jobs, Salesforce CEO Marc Benioff says almost no one is being hired—except in sales",
+            "date": "2026-05-28",
+            "snippet": "For the last couple years we have not been loading up a lot more engineers"
+          }
+        ],
+        "resolvedOn": "2025-12-31",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "d8f0e4d85d6f",
+      "person": "Mark Zuckerberg",
+      "personSlug": "mark-zuckerberg",
+      "quote": "Our hope is that within the next decade, the metaverse will reach a billion people, host hundreds of billions of dollars of digital commerce, and support jobs for millions of creators and developers.",
+      "quoteVerified": true,
+      "claim": "Within the next decade (by October 2031), the metaverse will reach a billion people.",
+      "type": "prediction",
+      "topic": "metaverse-adoption",
+      "saidDate": "2021-10-28",
+      "targetDate": "2031-10-28",
+      "targetDateInferred": true,
+      "resolutionCriteria": "By October 2031, immersive metaverse platforms (VR/AR virtual worlds) are used by about a billion people.",
+      "hedge": "Our hope is that",
+      "impliedProbability": 0.55,
+      "specificity": 3,
+      "source": {
+        "title": "Founder's Letter, 2021",
+        "url": "https://about.fb.com/news/2021/10/founders-letter/",
+        "date": "2021-10-28",
+        "kind": "blog"
+      },
+      "verdict": "too_early",
+      "grading": {
+        "verdict": "too_early",
+        "confidence": 0.9,
+        "rationale": "The October 2031 deadline has not passed. Signals so far are weak: Reality Labs lost $19.2 billion in 2025, and in March 2026 Meta announced it would end VR access to Horizon Worlds, then reversed that decision days later.",
+        "evidence": [
+          {
+            "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+            "title": "Meta Reports Fourth Quarter and Full Year 2025 Results",
+            "date": "2026-01-28",
+            "snippet": "Segment table: Reality Labs loss from operations, full year 2025: $(19,193) million"
+          },
+          {
+            "url": "https://www.engadget.com/ar-vr/meta-will-shut-down-vr-horizon-worlds-access-in-june-222028919.html",
+            "title": "Meta will shut down VR Horizon Worlds access in June",
+            "date": "2026-03-17",
+            "snippet": "Horizon Worlds, Meta's first pass at a metaverse, will be inaccessible via virtual reality headset after June 15, 2026."
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/19/meta-decides-not-to-shut-down-horizon-worlds-on-vr-after-all/",
+            "title": "Meta decides not to shut down Horizon Worlds on VR after all",
+            "date": "2026-03-19",
+            "snippet": "We have decided, just today in fact, that we will keep Horizon Worlds working in VR"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "ffac201f524d",
+      "person": "Mark Zuckerberg",
+      "personSlug": "mark-zuckerberg",
+      "quote": "Probably in 2025, we at Meta as well as the other companies that are basically working on this are going to have an AI that can effectively be a sort of mid-level engineer that you have at your company that can write code.",
+      "quoteVerified": true,
+      "claim": "In 2025, Meta and other AI companies will have an AI that can effectively work as a mid-level software engineer writing code.",
+      "type": "prediction",
+      "topic": "ai-coding",
+      "saidDate": "2025-01-10",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By the end of 2025, Meta or another company has an AI system that does the coding work of a mid-level software engineer with comparable autonomy and reliability.",
+      "hedge": "Probably",
+      "impliedProbability": 0.7,
+      "specificity": 3,
+      "source": {
+        "title": "Joe Rogan Experience #2255 - Mark Zuckerberg (quoted by Windows Central)",
+        "url": "https://www.windowscentral.com/software-apps/mark-zuckerberg-ai-engineers-might-claim-coding-jobs",
+        "date": "2025-01-10",
+        "kind": "podcast"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.7,
+        "rationale": "AI coding tools were widely used by the end of 2025, but the best model METR had measured completed software tasks that take humans about five hours only half the time, short of working as a mid-level engineer. In July 2026 Zuckerberg told staff that agent development had not accelerated as Meta expected.",
+        "evidence": [
+          {
+            "url": "https://x.com/METR_Evals/status/2002203627377574113",
+            "title": "METR on X: Claude Opus 4.5 time horizon",
+            "date": "2025-12-20",
+            "snippet": "We estimate that, on our tasks, Claude Opus 4.5 has a 50%-time horizon of around 4 hrs 49 mins (95% confidence interval of 1 hr 49 mins to 20 hrs 25 mins)."
+          },
+          {
+            "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-zuckerberg-says-ai-agent-201123441.html",
+            "title": "Exclusive-Zuckerberg says AI agent tech is developing more slowly than expected (Reuters)",
+            "date": "2026-07-02",
+            "snippet": "I think the kind of trajectory of the agentic development over at least the last four months hasn't really accelerated in the way that we expected"
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "eae4364a16c2",
+      "person": "Mark Zuckerberg",
+      "personSlug": "mark-zuckerberg",
+      "quote": "In 2025, I expect Meta AI will be the leading assistant serving more than 1 billion people",
+      "quoteVerified": true,
+      "claim": "In 2025, Meta AI will be the leading AI assistant, serving more than 1 billion people.",
+      "type": "prediction",
+      "topic": "meta-ai-adoption",
+      "saidDate": "2025-01-24",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "By the end of 2025, Meta AI serves more than 1 billion people and is the most-used AI assistant.",
+      "hedge": "I expect",
+      "impliedProbability": 0.75,
+      "specificity": 4,
+      "source": {
+        "title": "Mark Zuckerberg Facebook post (quoted by NBC News)",
+        "url": "https://www.nbcnews.com/tech/tech-news/60-billion-one-year-zuckerberg-touts-metas-ai-investments-rcna189131",
+        "date": "2025-01-24",
+        "kind": "other"
+      },
+      "verdict": "partial",
+      "grading": {
+        "verdict": "partial",
+        "confidence": 0.6,
+        "rationale": "Meta reported in May 2025 that Meta AI had one billion monthly active users across its apps, meeting the user target by its own count. Whether it was the leading assistant depends on the metric, as OpenAI reported 800 million weekly active users for ChatGPT in October 2025.",
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2025/05/29/meta-ai-now-has-1b-monthly-active-users/",
+            "title": "Meta AI now has 1B monthly active users",
+            "date": "2025-05-29",
+            "snippet": "Meta AI now has one billion monthly active users across its apps"
+          },
+          {
+            "url": "https://techcrunch.com/2025/10/06/sam-altman-says-chatgpt-has-hit-800m-weekly-active-users",
+            "title": "Sam Altman says ChatGPT has hit 800M weekly active users",
+            "date": "2025-10-06",
+            "snippet": "OpenAI CEO Sam Altman said Monday that ChatGPT has reached 800 million weekly active users"
+          }
+        ],
+        "resolvedOn": "2025-05-28",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "923d81e25cbc",
+      "person": "Sam Altman",
+      "personSlug": "sam-altman",
+      "quote": "We believe that, in 2025, we may see the first AI agents \"join the workforce\" and materially change the output of companies.",
+      "quoteVerified": true,
+      "claim": "In 2025, the first AI agents will join the workforce and materially change the output of companies.",
+      "type": "prediction",
+      "topic": "ai-agents",
+      "saidDate": "2025-01-05",
+      "targetDate": "2025-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "During 2025, AI agents are deployed as working contributors inside companies and measurably change company output, as shown by independent adoption and productivity data.",
+      "hedge": "we may",
+      "impliedProbability": 0.4,
+      "specificity": 2,
+      "source": {
+        "title": "Reflections",
+        "url": "https://blog.samaltman.com/reflections",
+        "date": "2025-01-05",
+        "kind": "blog"
+      },
+      "verdict": "partial",
+      "grading": {
+        "verdict": "partial",
+        "confidence": 0.65,
+        "rationale": "AI agents entered production at some firms in 2025 (McKinsey found 23% of respondents' organizations scaling an agentic system), but year-end reviews found that interest had not translated into broad deployment or a material change in most companies' output.",
+        "evidence": [
+          {
+            "url": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/november%202025/the-state-of-ai-2025-agents-innovation_cmyk-v1.pdf",
+            "title": "The state of AI in 2025: Agents, innovation, and transformation (McKinsey, November 2025)",
+            "snippet": "Twenty-three percent of respondents report their organizations are scaling an agentic AI system somewhere in their enterprises"
+          },
+          {
+            "url": "https://www.cityam.com/2025-was-set-to-be-the-year-of-ai-agents-it-was-not/",
+            "title": "2025 was set to be the year of AI agents. It was not.",
+            "date": "2026-01-06",
+            "snippet": "that curiosity hasn't yet translated into broad deployment"
+          }
+        ],
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "4d8e13802d1d",
+      "person": "Sam Altman",
+      "personSlug": "sam-altman",
+      "quote": "change of plans: we are going to release o3 and o4-mini after all, probably in a couple of weeks, and then do GPT-5 in a few months",
+      "quoteVerified": true,
+      "claim": "OpenAI will release GPT-5 within a few months of April 2025.",
+      "type": "prediction",
+      "topic": "openai-releases",
+      "saidDate": "2025-04-04",
+      "targetDate": "2025-10-04",
+      "targetDateInferred": true,
+      "resolutionCriteria": "OpenAI publicly releases a model named GPT-5 within about six months of April 4, 2025.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 3,
+      "source": {
+        "title": "Sam Altman on X",
+        "url": "https://x.com/sama/status/1908167621624856998",
+        "date": "2025-04-04",
+        "kind": "x"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.95,
+        "rationale": "OpenAI released GPT-5 to ChatGPT users and the API on August 7, 2025, about four months after the post.",
+        "evidence": [
+          {
+            "url": "https://www.axios.com/2025/08/07/gpt5-openai-chatgpt-release",
+            "title": "ChatGPT unlocks its next level with OpenAI's major GPT-5 update",
+            "date": "2025-08-07",
+            "snippet": "OpenAI's long-awaited GPT-5 — a major update to the technology underlying ChatGPT — is a faster, more-capable large language model"
+          },
+          {
+            "url": "https://www.infoq.com/news/2025/08/openai-gpt5-release/",
+            "title": "OpenAI's GPT-5 Debuts with Commoditizing Costs and Higher Scrutiny",
+            "date": "2025-08-11",
+            "snippet": "On August 7, 2025, the company rolled out GPT-5 to ChatGPT users and to the API"
+          }
+        ],
+        "resolvedOn": "2025-08-07",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "ef5f1b1a3295",
+      "person": "Steve Ballmer",
+      "personSlug": "steve-ballmer",
+      "quote": "There's no chance that the iPhone is going to get any significant market share. No chance. It's a $500 subsidized item. They may make a lot of money. But if you actually take a look at the 1.3 billion phones that get sold, I'd prefer to have our software in 60% or 70% or 80% of them, than I would to have 2% or 3%, which is what Apple might get.",
+      "quoteVerified": true,
+      "claim": "The iPhone will not gain any significant share of the mobile phone market; Apple might reach only about 2-3% of the roughly 1.3 billion phones sold each year.",
+      "type": "prediction",
+      "topic": "iphone-market-share",
+      "saidDate": "2007-04-29",
+      "targetDate": "2012-12-31",
+      "targetDateInferred": true,
+      "resolutionCriteria": "Through its first five full years on sale, the iPhone stays at or below about 2-3% of global mobile phone unit sales and holds no significant share of the smartphone market.",
+      "hedge": "no chance",
+      "impliedProbability": 0.9,
+      "specificity": 3,
+      "source": {
+        "title": "USA Today CEO Forum interview with Steve Ballmer (David Lieberman)",
+        "url": "http://usatoday30.usatoday.com/money/companies/management/2007-04-29-ballmer-ceo-forum-usat_N.htm",
+        "date": "2007-04-29",
+        "kind": "interview"
+      },
+      "verdict": "incorrect",
+      "grading": {
+        "verdict": "incorrect",
+        "confidence": 0.95,
+        "rationale": "Gartner data show Apple sold about 130 million iPhones in 2012, 7.5% of all mobile phones and 19.1% of smartphones, well above the 2-3% Ballmer described.",
+        "evidence": [
+          {
+            "url": "https://www.gartner.com/en/newsroom/press-releases/2014-02-13-gartner-says-annual-smartphone-sales-surpassed-sales-of-feature-phones-for-the-first-time-in-2013",
+            "title": "Gartner Says Annual Smartphone Sales Surpassed Sales of Feature Phones for the First Time in 2013",
+            "date": "2014-02-13",
+            "snippet": "Table data: Apple 2012 worldwide mobile phone sales to end users 130,133.2 thousand units, 7.5% market share; Apple 2012 smartphone market share 19.1%."
+          },
+          {
+            "url": "https://www.gartner.com/en/newsroom/press-releases/2015-03-03-gartner-says-smartphone-sales-surpassed-one-billion-units-in-2014",
+            "title": "Gartner Says Smartphone Sales Surpassed One Billion Units in 2014",
+            "date": "2015-03-03",
+            "snippet": "Apple reported its best quarter ever in the fourth quarter of 2014, which saw it sell 74.8 million units and move to the No. 1 position in the global smartphone market."
+          }
+        ],
+        "latenessMonths": null,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "1a281c65b60c",
+      "person": "Steve Jobs",
+      "personSlug": "steve-jobs",
+      "quote": "So here we are, and we're gonna be shipping it in June in the U.S.",
+      "quoteVerified": true,
+      "claim": "Apple will begin shipping the iPhone in the United States in June 2007.",
+      "type": "prediction",
+      "topic": "iphone-launch",
+      "saidDate": "2007-01-09",
+      "targetDate": "2007-06-30",
+      "targetDateInferred": false,
+      "resolutionCriteria": "The iPhone goes on sale to U.S. customers on or before June 30, 2007.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 4,
+      "source": {
+        "title": "Macworld San Francisco 2007 keynote (transcript via European Rhetoric)",
+        "url": "http://www.european-rhetoric.com/analyses/ikeynote-analysis-iphone/transcript-2007/",
+        "date": "2007-01-09",
+        "kind": "keynote"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.99,
+        "rationale": "The iPhone went on sale in U.S. stores on June 29, 2007, within the month Jobs announced.",
+        "evidence": [
+          {
+            "url": "https://money.cnn.com/2007/06/29/technology/iphone_launches/index.htm",
+            "title": "The wait is over",
+            "date": "2007-06-29",
+            "snippet": "The first Apple iPhones went on sale Friday, ending months of mounting anticipation."
+          },
+          {
+            "url": "https://www.apple.com/newsroom/2007/06/28iPhone-Premieres-This-Friday-Night-at-Apple-Retail-Stores/",
+            "title": "iPhone Premieres This Friday Night at Apple Retail Stores",
+            "date": "2007-06-28",
+            "snippet": "Apple's revolutionary iPhone will go on sale this Friday, June 29 at 6:00 p.m. local time at Apple retail stores nationwide."
+          }
+        ],
+        "resolvedOn": "2007-06-29",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "cab8055085bd",
+      "person": "Steve Jobs",
+      "personSlug": "steve-jobs",
+      "quote": "we're gonna go for it and see if we can get 1 percent market share, 10 million units in 2008, and go from there.",
+      "quoteVerified": true,
+      "claim": "Apple will sell about 10 million iPhones in calendar 2008, roughly 1% of the global mobile phone market.",
+      "type": "prediction",
+      "topic": "iphone-market-share",
+      "saidDate": "2007-01-09",
+      "targetDate": "2008-12-31",
+      "targetDateInferred": false,
+      "resolutionCriteria": "Apple sells at least 10 million iPhones during calendar year 2008.",
+      "hedge": "see if we can",
+      "impliedProbability": 0.55,
+      "specificity": 5,
+      "source": {
+        "title": "Macworld San Francisco 2007 keynote (transcript via European Rhetoric)",
+        "url": "http://www.european-rhetoric.com/analyses/ikeynote-analysis-iphone/transcript-2007/",
+        "date": "2007-01-09",
+        "kind": "keynote"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.95,
+        "rationale": "Apple reported in October 2008 that it had already passed 10 million iPhones sold in calendar 2008, after selling 6.9 million in the July-September quarter alone.",
+        "evidence": [
+          {
+            "url": "https://www.macrumors.com/2008/10/21/apple-reaches-10-million-iphone-sales-goal-for-2008/",
+            "title": "Apple Reaches 10 Million iPhone Sales Goal for 2008",
+            "date": "2008-10-21",
+            "snippet": "Apple has revealed that the company has met its self-imposed goal of selling 10 million iPhones in calendar 2008."
+          },
+          {
+            "url": "https://appleinsider.com/articles/08/10/21/notes_of_interest_for_apples_q4_2008_results_call",
+            "title": "Notes of interest for Apple's Q4 2008 conference call",
+            "date": "2008-10-21",
+            "snippet": "Apple has already surpassed its goal of selling 10 million iPhones in calendar 2008."
+          },
+          {
+            "url": "https://www.macworld.com/article/194150/iphone_2008.html",
+            "title": "2008 in review: The iPhone comes of age",
+            "date": "2008-12-29",
+            "snippet": "All that expansion helped catapult the iPhone to its goal of 10 million, which Apple reached towards the end of October."
+          }
+        ],
+        "resolvedOn": "2008-10-21",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    },
+    {
+      "id": "b64331707a10",
+      "person": "Steve Jobs",
+      "personSlug": "steve-jobs",
+      "quote": "New open standards created in the mobile era, such as HTML5, will win on mobile devices (and PCs too).",
+      "quoteVerified": true,
+      "claim": "Open web standards such as HTML5, rather than Adobe Flash, will prevail on mobile devices and on PCs.",
+      "type": "prediction",
+      "topic": "flash-vs-html5",
+      "saidDate": "2010-04-29",
+      "targetDate": "2020-04-29",
+      "targetDateInferred": true,
+      "resolutionCriteria": "Flash is abandoned as the main platform for rich web content on mobile browsers and on desktop browsers, replaced by HTML5 and related open standards.",
+      "hedge": "",
+      "impliedProbability": 0.85,
+      "specificity": 2,
+      "source": {
+        "title": "Thoughts on Flash (open letter on apple.com, archived copy)",
+        "url": "https://web.archive.org/web/20100501010616/http://www.apple.com/hotnews/thoughts-on-flash/",
+        "date": "2010-04-29",
+        "kind": "blog"
+      },
+      "verdict": "correct",
+      "grading": {
+        "verdict": "correct",
+        "confidence": 0.95,
+        "rationale": "Adobe stopped developing mobile-browser Flash in November 2011, YouTube made HTML5 its default desktop player in January 2015, and in July 2017 Adobe announced Flash's end of life, citing matured open standards such as HTML5.",
+        "evidence": [
+          {
+            "url": "https://www.macrumors.com/2011/11/09/adobe-discontinues-development-on-mobile-flash/",
+            "title": "Adobe Discontinues Development of Flash Player on Mobile Devices",
+            "date": "2011-11-08",
+            "snippet": "Our future work with Flash on mobile devices will be focused on enabling Flash developers to package native apps with Adobe AIR for all the major app stores."
+          },
+          {
+            "url": "https://techcrunch.com/2015/01/27/youtube-goes-html5-flash-is-now-deader/",
+            "title": "YouTube Now Streams HTML5 Video By Default",
+            "date": "2015-01-27",
+            "snippet": "Starting today, YouTube defaults to using HTML5 video on all modern browsers, including Chrome, IE 11, Safari 8 and the beta versions of Firefox."
+          },
+          {
+            "url": "https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update",
+            "title": "Flash & the Future of Interactive Content",
+            "date": "2017-07-25",
+            "snippet": "We will stop updating and distributing the Flash Player at the end of 2020"
+          }
+        ],
+        "resolvedOn": "2017-07-25",
+        "latenessMonths": 0,
+        "gradedAt": "2026-09-27T00:00:00Z",
+        "gradedBy": "human:seed"
+      },
+      "origin": "seed"
+    }
+  ]
+}

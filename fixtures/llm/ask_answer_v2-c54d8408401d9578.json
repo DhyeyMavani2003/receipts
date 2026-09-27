@@ -1,0 +1,20 @@
+{
+  "request": {
+    "schemaName": "ask_answer_v2",
+    "variant": null,
+    "system_sha": "871e2f53eaec112e",
+    "user_excerpt": "Question: Has Elon Musk's story on Mars landing changed?\nToday: 2026-09-27\nQuestion type: drift (how their story or view changed over time)\nTopics on record that match: mars-landing\n\nScores, all topic"
+  },
+  "response": {
+    "data": {
+      "answer": "Yes: Musk’s Mars landing story has shifted from missions starting in 2018, to uncrewed Starships in 2026, to saying SpaceX has shifted focus to a Moon city while Mars would take 20+ years.\n\nIn 2016 he said SpaceX would send a Mars mission with every opportunity “from 2018 onwards”; that did not happen. In 2024 he said “The first Starships to Mars will launch in 2 years,” with uncrewed landings in the 2026 window; that is still waiting on its deadline. In 2026 he said SpaceX had “shifted focus” to a self-growing Moon city in under 10 years, while Mars would take more than 20 years; that is also waiting on its deadline.",
+      "cited_claim_ids": [
+        "fa78a7860f86",
+        "bc5310538cbb",
+        "c1c59c9952eb"
+      ]
+    },
+    "citations": [],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

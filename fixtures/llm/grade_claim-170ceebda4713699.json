@@ -1,0 +1,163 @@
+{
+  "request": {
+    "schemaName": "grade_claim",
+    "variant": "B",
+    "system_sha": "3ebb79f1f9eba826",
+    "user_excerpt": "Judge: B (charitable reading of what the speaker meant)\nToday: 2026-09-27\n\nSpeaker: Elon Musk\nSaid: 2025-05-20 in \"CNBC interview with David Faber at Giga Texas, Part 1\" (podcast) https://www.youtube."
+  },
+  "response": {
+    "data": {
+      "verdict": "correct",
+      "confidence": 0.91,
+      "rationale": "Under a charitable reading, the claim required Tesla to have an Austin robotaxi launch operating by June 30, 2025, not a fully scaled public service. Credible news reports say Tesla began limited Austin robotaxi rides on June 22, 2025, using Model Y vehicles, paid rides/select riders, and front-seat safety monitors, which satisfies the stated resolution criteria despite the limited rollout.",
+      "resolvedOn": "2025-06-22",
+      "evidence": [
+        {
+          "url": "https://techcrunch.com/2025/06/22/tesla-launches-robotaxi-rides-in-austin-with-big-promises-and-unanswered-questions/",
+          "title": "Tesla launches robotaxi rides in Austin with big promises and unanswered questions",
+          "date": "2025-06-22",
+          "snippet": "Tesla has started giving rides in driverless Model Y SUVs in Austin; early-access riders could hail rides on Sunday."
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/tesla-tiptoes-into-longpromised-robotaxi-service-4104732?ampMode=1",
+          "title": "Tesla rolls out robotaxis in Texas test By Reuters",
+          "date": "2025-06-22",
+          "snippet": "Tesla deployed a small group of self-driving taxis picking up paying passengers on Sunday in Austin, Texas."
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/tesla-shares-soar-after-first-robotaxi-rides-hit-the-road-in-austin-texas-4106265",
+          "title": "Tesla shares soar after first robotaxi test rides hit the road in Austin, Texas",
+          "date": "2025-06-23",
+          "snippet": "Reuters reported Tesla deployed a small fleet in Austin on Sunday, carrying paying passengers without human drivers in a limited zone."
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-06-23/tesla-starts-long-awaited-robotaxi-service-with-low-key-rollout",
+          "title": "Tesla Starts Long-Awaited Robotaxi Service in Austin With Low-Key Rollout",
+          "date": "2025-06-23",
+          "snippet": "Bloomberg reported Tesla rolled out its driverless taxi service to a handful of riders in Austin on Sunday."
+        }
+      ]
+    },
+    "citations": [],
+    "searched": [
+      {
+        "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003837/tsla-20260128-gen.pdf"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/musk-says-robotaxi-to-launch-in-austin-texas-on-sunday-afternoon-4104768"
+      },
+      {
+        "url": "https://techcrunch.com/2025/06/22/tesla-launches-robotaxi-rides-in-austin-with-big-promises-and-unanswered-questions/"
+      },
+      {
+        "url": "https://techcrunch.com/2025/05/20/musk-says-teslas-self-driving-tests-will-be-geofenced-to-the-safest-parts-of-austin/"
+      },
+      {
+        "url": "https://techcrunch.com/2025/06/11/musk-targets-june-22-launch-of-teslas-long-promised-robotaxi-service/"
+      },
+      {
+        "url": "https://m.investing.com/news/stock-market-news/tesla-tiptoes-into-longpromised-robotaxi-service-4104732?ampMode=1"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2025-06-23/tesla-starts-long-awaited-robotaxi-service-with-low-key-rollout"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/teslas-public-robotaxi-rides-to-start-on-june-22-tentatively-ceo-musk-says-4089979"
+      },
+      {
+        "url": "https://www.electrive.com/2025/06/23/tesla-launches-robotaxi-service-in-austin-with-20-model-y/"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/tesla-shares-soar-after-first-robotaxi-rides-hit-the-road-in-austin-texas-4106265"
+      },
+      {
+        "url": "https://www.caranddriver.com/news/a63632919/tesla-robotaxi-paid-service-start-austin-texas/"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=y1up2qNmsos"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=nyEZrjWrMlM"
+      },
+      {
+        "url": "https://www.wired.com/story/tesla-robotaxi-service-launches-austin-texas/"
+      },
+      {
+        "url": "https://electrek.co/2026/02/16/tesla-robotaxi-status-check-8-months-in/"
+      },
+      {
+        "url": "https://spectrumlocalnews.com/content/dam/News/static/pdfs/tx/gov_uscourts_txwd_1172857934_1_0_1.pdf"
+      },
+      {
+        "url": "https://blog.syzgroup.com/hubfs/Focus_250722_Robotaxis.pdf?hsLang=en"
+      },
+      {
+        "url": "https://www.reddit.com/r/RealTesla/comments/1j6kpde/unsupervised_full_self_driving_in_june/"
+      },
+      {
+        "url": "https://www.txdot.gov/content/dam/docs/division/trf/tim/tim-newsletter-4th-qtr-2025.pdf"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla_Robotaxi"
+      },
+      {
+        "url": "https://www.reddit.com/r/TeslaFSD/comments/1lhxfqb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla_Autopilot"
+      },
+      {
+        "url": "https://www.gulf-times.com/pdf/2025/06/23/main-20250623-1.pdf?ts=012541"
+      },
+      {
+        "url": "https://www.diva-portal.org/smash/get/diva2%3A2009996/FULLTEXT01.pdf"
+      },
+      {
+        "url": "https://www.reddit.com/r/RealTesla/comments/1prmsn6/teslas_robotaxi_service_in_austin_barely_exists/"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_predictions_for_autonomous_Tesla_vehicles_by_Elon_Musk"
+      },
+      {
+        "url": "https://www.reddit.com/r/SelfDrivingCars/comments/1qvf7hu/tesla_unsupervised_robotaxi_in_austin_is_limited/"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Robotaxi"
+      },
+      {
+        "url": "https://www.reddit.com/r/RealTesla/comments/1kxzplr"
+      },
+      {
+        "url": "https://www.reddit.com/r/teslamotors/comments/1l8sovi"
+      },
+      {
+        "url": "https://www.reddit.com/r/SelfDrivingCars/comments/1sp5lrt/tesla_announces_houston_and_dallas_launch/"
+      },
+      {
+        "url": "https://www.reddit.com/r/TeslaLounge/comments/1kxsby5"
+      },
+      {
+        "url": "https://www.reddit.com/r/RealTesla/comments/1l8g8c1"
+      },
+      {
+        "url": "https://www.reddit.com/r/texas/comments/1lijjfn"
+      },
+      {
+        "url": "https://www.reddit.com/r/SelfDrivingCars/comments/1lhwq3q"
+      },
+      {
+        "url": "https://www.reddit.com/r/TeslaFSD/comments/1kxsknk"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla%2C_Inc."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla_next-generation_vehicle_platform"
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.06813"
+      }
+    ],
+    "model": "gpt-5.5-2026-04-23"
+  }
+}

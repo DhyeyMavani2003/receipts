@@ -1,0 +1,102 @@
+{
+  "task": "Score the output of one Receipts skill (named in each case's `skill`) run on the case's `input`. Receipts turns media into dated, verbatim-quoted claims on the speaker's GBrain person page (receipts-ingest), grades predictions once their deadline passes (receipts-grade), labels how a person's story drifts over time (receipts-drift), and answers 'how much should I trust <person> on <topic>?' (receipts-ask). Across all skills the output must: carry the verbatim quote and a source link on every claim it states; use the speaker as the holder, never the subject; take probabilities only from the hedge table; treat only independent sources as evidence; stay neutral ('track record on public statements', never 'lied'); and allow 'unresolvable'. Score each case 1-10 against its criteria; any fabricated quote or claim scores 1.",
+  "output": "{{output-from-skill}}",
+  "cases": [
+    {
+      "name": "ingest: interview keeps only the guest's claims",
+      "skill": "receipts-ingest",
+      "input": "Transcript of 'Example Podcast #12' (2019-04-22, https://www.youtube.com/watch?v=abc123), host Ann Host, guest Jane Example. [00:02:10] Ann Host: Will you ship the robot next year? [00:02:14] Jane Example: Definitely, we will ship the robot to customers next year. [00:05:01] Ann Host: I think it slips to 2021.",
+      "criteria": "Exactly one claim, held by people/jane-example and filed on people/jane-example. Quote is the exact transcript text 'Definitely, we will ship the robot to customers next year'. Type prediction, kind bet, deadline 2020-12-31 marked as inferred, weight 0.95 (hedge 'definitely'). Link carries t=134s. The host's question and the host's own 2021 guess are not attributed to the guest."
+    },
+    {
+      "name": "ingest: words the speaker quotes from someone else are not their claim",
+      "skill": "receipts-ingest",
+      "input": "Blog post by Jane Example (2024-03-01, https://example.com/agi): 'Sam told me AGI arrives in 2027. I think it's more like 2030.'",
+      "criteria": "One claim only: AGI by 2030 (deadline 2030-12-31), held by people/jane-example, weight 0.65 ('I think'). The 2027 date is not recorded as Jane's claim and is not attributed to anyone as a take. Quote is 'I think it's more like 2030' verbatim with the post link."
+    },
+    {
+      "name": "ingest: quote that does not match the source is dropped",
+      "skill": "receipts-ingest",
+      "input": "Transcript line: 'We are, uh, on track to double revenue by 2026.' A draft extraction proposes the quote 'We will double revenue by 2026, guaranteed.'",
+      "criteria": "The proposed quote is rejected because it does not string-match the transcript and is reported under dropped with a reason. If the claim is kept, it uses the transcript wording ('We are, uh, on track to double revenue by 2026' or the same words without the filler) and weight 0.75 ('on track'), never 0.95."
+    },
+    {
+      "name": "ingest: impossibility framing is written in the speaker's direction",
+      "skill": "receipts-ingest",
+      "input": "Interview with Jane Example (2022-05-10, https://example.com/int): 'There's no chance anyone ships a flying car by 2025.' Also: 'The future is going to be amazing.'",
+      "criteria": "The flying-car statement becomes 'No company will ship a flying car by 2025' (deadline 2025-12-31) with weight 0.90 (1 - 0.10), so a correct call later counts as correct. 'The future is going to be amazing' is skipped as not checkable. Neutral wording throughout."
+    },
+    {
+      "name": "grade: the speaker's own victory lap is not evidence",
+      "skill": "receipts-grade",
+      "input": "Bet on people/jane-example row 3: 'Robot ships to customers by 2020-12-31 (deadline 2020-12-31)', weight 0.95. Found sources: Jane Example's own post from 2021-01-02 saying 'we basically shipped it'; a 2021-01-20 news report that the robot's customer launch was postponed to 2022.",
+      "criteria": "Verdict incorrect, citing the independent news report, not Jane's post. Records `gbrain takes resolve people/jane-example --row 3 --quality incorrect --evidence <news url> --by receipts`. Rationale is 1-3 neutral sentences with no words like 'lied' or 'misled'."
+    },
+    {
+      "name": "grade: future deadline stays too_early",
+      "skill": "receipts-grade",
+      "input": "Today is 2026-09-27. Bet: 'Humanoid robots in every home by 2030-12-31 (deadline 2030-12-31)'.",
+      "criteria": "Reports too_early, performs no web grading as a final verdict, and does not call takes resolve. Explains the deadline has not passed."
+    },
+    {
+      "name": "grade: thin evidence resolves as unresolvable",
+      "skill": "receipts-grade",
+      "input": "Bet: 'Our internal model will pass the private benchmark by 2023-06-30 (deadline 2023-06-30)'. Only source found: the company's blog claiming success; the benchmark is not public.",
+      "criteria": "Verdict unresolvable (no independent evidence), recorded with --quality unresolvable, rationale says why evidence could not settle it. Does not force correct or incorrect."
+    },
+    {
+      "name": "grade: judges disagree without a majority",
+      "skill": "receipts-grade",
+      "input": "Bet: 'Full production by end of 2021 (deadline 2021-12-31)'. Strict reading: incorrect (volume production started 2022-03). Charitable reading: correct (first units off the line 2021-12-20). Tie-break judge: partial.",
+      "criteria": "Final verdict unresolvable marked disputed (no two judges agree), with each judge's vote shown. Records resolvedOn only if the evidence dates it. Neutral tone."
+    },
+    {
+      "name": "drift: repeated deadline slips are labeled in code",
+      "skill": "receipts-drift",
+      "input": "Takes on people/jane-example topic robot-launch: said 2018-02-01 due 2018-12-31; said 2019-01-15 due 2019-12-31; said 2020-01-20 due 2020-02-15. Each has a timeline entry with quote and link.",
+      "criteria": "Labels: first, pushed_later ('Deadline moved from 2018-12-31 to 2019-12-31.'), reaffirmed (46-day change is under the 60-day threshold). Each step shows date said, verbatim quote and link. Chain summary lists the deadlines in order."
+    },
+    {
+      "name": "drift: changed success condition is goalposts_moved",
+      "skill": "receipts-drift",
+      "input": "Same speaker, topic space-landing: 2017 'We will land on Mars by 2024'; 2023 'We will land on the Moon first, by 2026'.",
+      "criteria": "Second step labeled goalposts_moved (success condition changed from Mars to Moon) with a one-sentence neutral note; the deadline change is also mentioned. No motive or accusation."
+    },
+    {
+      "name": "drift: earlier bets are never superseded",
+      "skill": "receipts-drift",
+      "input": "User: 'He restated the robotaxi promise again today with a new date; clean up the old ones.'",
+      "criteria": "Adds the new statement as its own receipt (via receipts-ingest) and explains that older bets stay and are graded on their own deadlines. Does not run takes supersede or delete earlier takes."
+    },
+    {
+      "name": "drift: claims from two speakers stay in separate chains",
+      "skill": "receipts-drift",
+      "input": "people/jane-example and people/bob-example both made claims about topic robot-launch.",
+      "criteria": "Produces one chain per speaker; never labels Bob's claim as drift of Jane's. Each chain is held by its own speaker."
+    },
+    {
+      "name": "ask: answer with numbers, n and dated receipts",
+      "skill": "receipts-ask",
+      "input": "Question: 'How much should I trust Jane Example on robot launches?' Scorecard JSON: total_bets 12, resolved 9, correct 3, incorrect 6, brier 0.41, unresolvable_count 1. Topic bets: 5 resolved (1 correct, 4 incorrect), each with timeline quote and link.",
+      "criteria": "Under 150 words. States topic accuracy 1/5 and overall 3/9 with Brier 0.41 vs the 0.25 coin-flip baseline. Cites 2-3 receipts each with date said, verbatim quote in quotation marks, deadline, verdict and links. Mentions the unresolvable count and sample size. Neutral wording, no character judgment."
+    },
+    {
+      "name": "ask: thin record is called thin",
+      "skill": "receipts-ask",
+      "input": "Question: 'Is Bob Example reliable on interest rates?' Scorecard: resolved 2 (1 correct, 1 incorrect), 4 pending.",
+      "criteria": "Says the record is too thin to judge (2 resolved), reports the 4 pending, shows the receipts that exist with quotes and links, and does not extrapolate a trust verdict."
+    },
+    {
+      "name": "ask: unknown person gets no invented receipts",
+      "skill": "receipts-ask",
+      "input": "Question: 'How much should I trust Carol Example on AI?' No people/carol-example page and no takes.",
+      "criteria": "Says there are no receipts for this person yet and offers receipts-ingest on a source. Invents no claims, quotes, numbers or verdicts, and does not answer from general knowledge."
+    },
+    {
+      "name": "ask: new claim in the question is not graded from the ledger",
+      "skill": "receipts-ask",
+      "input": "Question: 'Jane Example says robots in every home by 2030. Should I believe her?' Ledger has her robot-launch chain (deadline pushed twice) and 1/5 topic accuracy.",
+      "criteria": "Treats the 2030 claim as not yet gradable (too early) and answers from the existing record on the topic: accuracy with n, the drift in deadlines with dated quotes, and a practical read. Neutral tone and explicit uncertainty."
+    }
+  ]
+}
